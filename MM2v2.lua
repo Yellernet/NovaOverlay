@@ -1,4 +1,3 @@
-
 -- Generated using RoadToGlory's Converter v1.1 (RoadToGlory#9879)
 
 -- Instances:
@@ -1937,7 +1936,15 @@ local function IFHUSY_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.
 	local button = script.Parent
 	local onColor = button.on.Value
 	local offColor = button.off.Value
-
+local function hi(v,clone)
+		if v.Backpack:FindFirstChild("Knife") or v.Character:FindFirstChild("Knife") then
+			clone.FillColor = Color3.new(1,0,0)
+		elseif v.Backpack:FindFirstChild("Gun") or v.Character:FindFirstChild("Gun") then
+			clone.FillColor = Color3.new(0,0,1)
+		else
+			clone.FillColor = Color3.new(0,1,0) -- no Gun or Knife
+		end
+end
 	local function toggle()
 		if state then
 			button.BackgroundColor3 = onColor
@@ -1947,17 +1954,17 @@ local function IFHUSY_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.
 						local clone = highlight:Clone()
 						clone.Parent = v.Character
 						clone.Enabled = true
-						game["Run Service"].RenderStepped:Connect(function()
-							game:GetService("RunService").RenderStepped:Connect(function()
-								if v.Backpack:FindFirstChild("Knife") or v.Character:FindFirstChild("Knife") then
-									clone.FillColor = Color3.new(1,0,0)
-								elseif v.Backpack:FindFirstChild("Gun") or v.Character:FindFirstChild("Gun") then
-									clone.FillColor = Color3.new(0,0,1)
-								else
-									clone.FillColor = Color3.new(0,1,0) -- no Gun or Knife
-								end
-							end)
-
+						v.Backpack.ChildAdded:Connect(function()
+							hi(v,clone)
+						end)
+						v.Backpack.ChildRemoved:Connect(function()
+							hi(v,clone)
+						end)
+						v.Character.ChildAdded:Connect(function()
+							hi(v,clone)
+						end)
+						v.Character.ChildRemoved:Connect(function()
+							hi(v,clone)
 						end)
 					end
 				end
@@ -1995,7 +2002,18 @@ local function MJZXMDA_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab
 	local button = script.Parent
 	local onColor = button.on.Value
 	local offColor = button.off.Value
-
+local function hi(v,clone)
+		if v.Backpack:FindFirstChild("Knife") or v.Character:FindFirstChild("Knife") then
+			clone.display.TextColor3 = Color3.new(1,0,0)
+			clone.user.TextColor3 = Color3.new(1,0,0)
+		elseif v.Backpack:FindFirstChild("Gun") or v.Character:FindFirstChild("Gun") then
+			clone.display.TextColor3 = Color3.new(0,0,1)
+			clone.user.TextColor3 = Color3.new(0,0,1)
+		else
+			clone.display.TextColor3 = Color3.new(0,1,0)
+			clone.user.TextColor3 = Color3.new(0,1,0)
+		end
+		end
 	local function toggle()
 		if state then
 			button.BackgroundColor3 = onColor
@@ -2006,18 +2024,19 @@ local function MJZXMDA_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab
 					clone.display.Text = v.DisplayName
 					clone.Enabled = true
 					clone.user.Text = "(@"..v.Name..")"
-					game["Run Service"].RenderStepped:Connect(function()
-						if v.Backpack:FindFirstChild("Knife") or v.Character:FindFirstChild("Knife") then
-							clone.display.TextColor3 = Color3.new(1,0,0)
-							clone.user.TextColor3 = Color3.new(1,0,0)
-						elseif v.Backpack:FindFirstChild("Gun") or v.Character:FindFirstChild("Gun") then
-							clone.display.TextColor3 = Color3.new(0,0,1)
-							clone.user.TextColor3 = Color3.new(0,0,1)
-						else
-							clone.display.TextColor3 = Color3.new(0,1,0)
-							clone.user.TextColor3 = Color3.new(0,1,0)
-						end
+					v.Backpack.ChildAdded:Connect(function()
+						hi(v,clone)
 					end)
+					v.Backpack.ChildRemoved:Connect(function()
+						hi(v,clone)
+					end)
+					v.Character.ChildAdded:Connect(function()
+						hi(v,clone)
+					end)
+					v.Character.ChildRemoved:Connect(function()
+						hi(v,clone)
+					end)
+					
 				end
 			end
 		else
@@ -2055,7 +2074,15 @@ local function VOMT_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.es
 	local button = script.Parent
 	local onColor = button.on.Value
 	local offColor = button.off.Value
-
+	local function hi(v,clone)
+		if v.Backpack:FindFirstChild("Knife") or v.Character:FindFirstChild("Knife") then
+			clone.Frame.UIStroke.Color = Color3.new(1,0,0)
+		elseif v.Backpack:FindFirstChild("Gun") or v.Character:FindFirstChild("Gun") then
+			clone.Frame.UIStroke.Color = Color3.new(0,0,1)
+		else
+			clone.Frame.UIStroke.Color = Color3.new(0,1,0) -- no Gun or Knife
+		end
+	end
 	local function toggle()
 		if state then
 			button.BackgroundColor3 = onColor
@@ -2064,14 +2091,17 @@ local function VOMT_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.es
 					local clone = boxes:Clone()
 					clone.Parent = v.Character
 					clone.Enabled = true
-					game["Run Service"].RenderStepped:Connect(function()
-						if v.Backpack:FindFirstChild("Knife") or v.Character:FindFirstChild("Knife") then
-							clone.Frame.UIStroke.Color = Color3.new(1,0,0)
-						elseif v.Backpack:FindFirstChild("Gun") or v.Character:FindFirstChild("Gun") then
-							clone.Frame.UIStroke.Color = Color3.new(0,0,1)
-						else
-							clone.Frame.UIStroke.Color = Color3.new(0,1,0) -- no Gun or Knife
-						end
+					v.Backpack.ChildAdded:Connect(function()
+						hi(v,clone)
+					end)
+					v.Backpack.ChildRemoved:Connect(function()
+						hi(v,clone)
+					end)
+					v.Character.ChildAdded:Connect(function()
+						hi(v,clone)
+					end)
+					v.Character.ChildRemoved:Connect(function()
+						hi(v,clone)
 					end)
 				end
 			end
