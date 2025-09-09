@@ -1,0 +1,2349 @@
+-- Generated using RoadToGlory's Converter v1.1 (RoadToGlory#9879)
+
+-- Instances:
+
+local Converted = {
+	["_GuiMain"] = Instance.new("GuiMain");
+	["_main"] = Instance.new("ScreenGui");
+	["_Tab"] = Instance.new("Folder");
+	["_LocalScript"] = Instance.new("LocalScript");
+	["_player"] = Instance.new("Frame");
+	["_TabNameLabel"] = Instance.new("TextLabel");
+	["_UIStroke"] = Instance.new("UIStroke");
+	["_ImageButton"] = Instance.new("ImageButton");
+	["_UIStroke1"] = Instance.new("UIStroke");
+	["_ScrollingFrame"] = Instance.new("ScrollingFrame");
+	["_UIStroke2"] = Instance.new("UIStroke");
+	["_UIListLayout"] = Instance.new("UIListLayout");
+	["_Toggler"] = Instance.new("TextButton");
+	["_TextButton"] = Instance.new("TextButton");
+	["_LocalScript1"] = Instance.new("LocalScript");
+	["_off"] = Instance.new("Color3Value");
+	["_on"] = Instance.new("Color3Value");
+	["_UIStroke3"] = Instance.new("UIStroke");
+	["_Toggler1"] = Instance.new("TextButton");
+	["_TextButton1"] = Instance.new("TextButton");
+	["_LocalScript2"] = Instance.new("LocalScript");
+	["_off1"] = Instance.new("Color3Value");
+	["_on1"] = Instance.new("Color3Value");
+	["_UIStroke4"] = Instance.new("UIStroke");
+	["_TextBox"] = Instance.new("TextButton");
+	["_TextBox1"] = Instance.new("TextBox");
+	["_UIStroke5"] = Instance.new("UIStroke");
+	["_Button"] = Instance.new("TextButton");
+	["_LocalScript3"] = Instance.new("LocalScript");
+	["_UIStroke6"] = Instance.new("UIStroke");
+	["_Button1"] = Instance.new("TextButton");
+	["_LocalScript4"] = Instance.new("LocalScript");
+	["_UIStroke7"] = Instance.new("UIStroke");
+	["_Button2"] = Instance.new("TextButton");
+	["_LocalScript5"] = Instance.new("LocalScript");
+	["_UIStroke8"] = Instance.new("UIStroke");
+	["_12"] = Instance.new("TextButton");
+	["_TextBox2"] = Instance.new("TextBox");
+	["_LocalScript6"] = Instance.new("LocalScript");
+	["_UIStroke9"] = Instance.new("UIStroke");
+	["_122112"] = Instance.new("TextButton");
+	["_TextBox3"] = Instance.new("TextBox");
+	["_LocalScript7"] = Instance.new("LocalScript");
+	["_UIStroke10"] = Instance.new("UIStroke");
+	["_1221121"] = Instance.new("TextButton");
+	["_TextBox4"] = Instance.new("TextBox");
+	["_LocalScript8"] = Instance.new("LocalScript");
+	["_UIStroke11"] = Instance.new("UIStroke");
+	["_UIDragDetector"] = Instance.new("UIDragDetector");
+	["_troll"] = Instance.new("Frame");
+	["_TabNameLabel1"] = Instance.new("TextLabel");
+	["_UIStroke12"] = Instance.new("UIStroke");
+	["_ImageButton1"] = Instance.new("ImageButton");
+	["_UIStroke13"] = Instance.new("UIStroke");
+	["_ScrollingFrame1"] = Instance.new("ScrollingFrame");
+	["_UIStroke14"] = Instance.new("UIStroke");
+	["_UIListLayout1"] = Instance.new("UIListLayout");
+	["_Toggler2"] = Instance.new("TextButton");
+	["_TextButton2"] = Instance.new("TextButton");
+	["_LocalScript9"] = Instance.new("LocalScript");
+	["_off2"] = Instance.new("Color3Value");
+	["_on2"] = Instance.new("Color3Value");
+	["_TextBox5"] = Instance.new("TextButton");
+	["_TextBox6"] = Instance.new("TextBox");
+	["_Button3"] = Instance.new("TextButton");
+	["_LocalScript10"] = Instance.new("LocalScript");
+	["_playe"] = Instance.new("TextButton");
+	["_TextBox7"] = Instance.new("TextBox");
+	["_Button4"] = Instance.new("TextButton");
+	["_LocalScript11"] = Instance.new("LocalScript");
+	["_Button5"] = Instance.new("TextButton");
+	["_LocalScript12"] = Instance.new("LocalScript");
+	["_UIDragDetector1"] = Instance.new("UIDragDetector");
+	["_esp"] = Instance.new("Frame");
+	["_TabNameLabel2"] = Instance.new("TextLabel");
+	["_UIStroke15"] = Instance.new("UIStroke");
+	["_ImageButton2"] = Instance.new("ImageButton");
+	["_UIStroke16"] = Instance.new("UIStroke");
+	["_ScrollingFrame2"] = Instance.new("ScrollingFrame");
+	["_UIStroke17"] = Instance.new("UIStroke");
+	["_UIListLayout2"] = Instance.new("UIListLayout");
+	["_Toggler3"] = Instance.new("TextButton");
+	["_TextButton3"] = Instance.new("TextButton");
+	["_LocalScript13"] = Instance.new("LocalScript");
+	["_off3"] = Instance.new("Color3Value");
+	["_on3"] = Instance.new("Color3Value");
+	["_Toggler4"] = Instance.new("TextButton");
+	["_TextButton4"] = Instance.new("TextButton");
+	["_LocalScript14"] = Instance.new("LocalScript");
+	["_off4"] = Instance.new("Color3Value");
+	["_on4"] = Instance.new("Color3Value");
+	["_Toggler5"] = Instance.new("TextButton");
+	["_TextButton5"] = Instance.new("TextButton");
+	["_LocalScript15"] = Instance.new("LocalScript");
+	["_off5"] = Instance.new("Color3Value");
+	["_on5"] = Instance.new("Color3Value");
+	["_UIDragDetector2"] = Instance.new("UIDragDetector");
+	["_myscripts"] = Instance.new("Frame");
+	["_TabNameLabel3"] = Instance.new("TextLabel");
+	["_UIStroke18"] = Instance.new("UIStroke");
+	["_ImageButton3"] = Instance.new("ImageButton");
+	["_UIStroke19"] = Instance.new("UIStroke");
+	["_ScrollingFrame3"] = Instance.new("ScrollingFrame");
+	["_UIStroke20"] = Instance.new("UIStroke");
+	["_UIListLayout3"] = Instance.new("UIListLayout");
+	["_Button6"] = Instance.new("TextButton");
+	["_LocalScript16"] = Instance.new("LocalScript");
+	["_Button7"] = Instance.new("TextButton");
+	["_LocalScript17"] = Instance.new("LocalScript");
+	["_Button8"] = Instance.new("TextButton");
+	["_LocalScript18"] = Instance.new("LocalScript");
+	["_UIDragDetector3"] = Instance.new("UIDragDetector");
+	["_scripts"] = Instance.new("Frame");
+	["_TabNameLabel4"] = Instance.new("TextLabel");
+	["_UIStroke21"] = Instance.new("UIStroke");
+	["_ImageButton4"] = Instance.new("ImageButton");
+	["_UIStroke22"] = Instance.new("UIStroke");
+	["_ScrollingFrame4"] = Instance.new("ScrollingFrame");
+	["_UIStroke23"] = Instance.new("UIStroke");
+	["_UIListLayout4"] = Instance.new("UIListLayout");
+	["_Button9"] = Instance.new("TextButton");
+	["_LocalScript19"] = Instance.new("LocalScript");
+	["_Button10"] = Instance.new("TextButton");
+	["_LocalScript20"] = Instance.new("LocalScript");
+	["_Button11"] = Instance.new("TextButton");
+	["_LocalScript21"] = Instance.new("LocalScript");
+	["_Button12"] = Instance.new("TextButton");
+	["_LocalScript22"] = Instance.new("LocalScript");
+	["_Button13"] = Instance.new("TextButton");
+	["_UIDragDetector4"] = Instance.new("UIDragDetector");
+	["_Templates"] = Instance.new("Folder");
+	["_Toggler6"] = Instance.new("TextButton");
+	["_TextButton6"] = Instance.new("TextButton");
+	["_LocalScript23"] = Instance.new("LocalScript");
+	["_off6"] = Instance.new("Color3Value");
+	["_on6"] = Instance.new("Color3Value");
+	["_Button14"] = Instance.new("TextButton");
+	["_TextBox8"] = Instance.new("TextButton");
+	["_TextBox9"] = Instance.new("TextBox");
+	["_Highlight"] = Instance.new("Highlight");
+	["_name"] = Instance.new("BillboardGui");
+	["_display"] = Instance.new("TextLabel");
+	["_UIStroke24"] = Instance.new("UIStroke");
+	["_user"] = Instance.new("TextLabel");
+	["_UIStroke25"] = Instance.new("UIStroke");
+	["_boxes"] = Instance.new("BillboardGui");
+	["_Frame"] = Instance.new("Frame");
+	["_UIStroke26"] = Instance.new("UIStroke");
+}
+
+-- Properties:
+
+Converted["_GuiMain"].ResetOnSpawn = false
+Converted["_GuiMain"].Parent = game:GetService("CoreGui")
+
+Converted["_main"].ResetOnSpawn = false
+Converted["_main"].ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+Converted["_main"].Name = "main"
+Converted["_main"].Parent = Converted["_GuiMain"]
+
+Converted["_Tab"].Name = "Tab"
+Converted["_Tab"].Parent = Converted["_main"]
+
+Converted["_player"].BackgroundColor3 = Color3.fromRGB(185.00000417232513, 73.00000324845314, 255)
+Converted["_player"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_player"].BorderSizePixel = 0
+Converted["_player"].Position = UDim2.new(0, -2, 0, 3)
+Converted["_player"].Size = UDim2.new(0, 100, 0, 20)
+Converted["_player"].Name = "player"
+Converted["_player"].Parent = Converted["_Tab"]
+
+Converted["_TabNameLabel"].Font = Enum.Font.Unknown
+Converted["_TabNameLabel"].Text = "Player"
+Converted["_TabNameLabel"].TextColor3 = Color3.fromRGB(40.00000141561031, 22.000000588595867, 53.00000064074993)
+Converted["_TabNameLabel"].TextScaled = true
+Converted["_TabNameLabel"].TextSize = 14
+Converted["_TabNameLabel"].TextWrapped = true
+Converted["_TabNameLabel"].TextYAlignment = Enum.TextYAlignment.Top
+Converted["_TabNameLabel"].BackgroundColor3 = Color3.fromRGB(40.00000141561031, 22.000000588595867, 53.00000064074993)
+Converted["_TabNameLabel"].BackgroundTransparency = 1
+Converted["_TabNameLabel"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TabNameLabel"].BorderSizePixel = 0
+Converted["_TabNameLabel"].Position = UDim2.new(-1.90734859e-08, 0, 0, 0)
+Converted["_TabNameLabel"].Size = UDim2.new(0.529999971, 0, 1, 0)
+Converted["_TabNameLabel"].Name = "TabNameLabel"
+Converted["_TabNameLabel"].Parent = Converted["_player"]
+
+Converted["_UIStroke"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke"].Thickness = 4
+Converted["_UIStroke"].Parent = Converted["_TabNameLabel"]
+
+Converted["_ImageButton"].Image = "rbxassetid://119470080986376"
+
+Converted["_ImageButton"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_ImageButton"].BackgroundTransparency = 1
+Converted["_ImageButton"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_ImageButton"].BorderSizePixel = 0
+Converted["_ImageButton"].Position = UDim2.new(0.779999971, 0, 0, 0)
+Converted["_ImageButton"].Size = UDim2.new(0.219999999, 0, 1, 0)
+Converted["_ImageButton"].Parent = Converted["_player"]
+
+Converted["_UIStroke1"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke1"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke1"].LineJoinMode = Enum.LineJoinMode.Miter
+Converted["_UIStroke1"].Thickness = 4
+Converted["_UIStroke1"].Parent = Converted["_player"]
+
+Converted["_ScrollingFrame"].ScrollBarImageColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_ScrollingFrame"].Active = true
+Converted["_ScrollingFrame"].BackgroundColor3 = Color3.fromRGB(84.00000259280205, 33.00000183284283, 117.00000822544098)
+Converted["_ScrollingFrame"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_ScrollingFrame"].BorderSizePixel = 0
+Converted["_ScrollingFrame"].Position = UDim2.new(0, 0, 1, 0)
+Converted["_ScrollingFrame"].Size = UDim2.new(0, 100, 0, 216)
+Converted["_ScrollingFrame"].Parent = Converted["_player"]
+
+Converted["_UIStroke2"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke2"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke2"].LineJoinMode = Enum.LineJoinMode.Miter
+Converted["_UIStroke2"].Thickness = 4
+Converted["_UIStroke2"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_UIListLayout"].SortOrder = Enum.SortOrder.LayoutOrder
+Converted["_UIListLayout"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_Toggler"].Font = Enum.Font.Unknown
+Converted["_Toggler"].Text = "fly"
+Converted["_Toggler"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Toggler"].TextScaled = true
+Converted["_Toggler"].TextSize = 14
+Converted["_Toggler"].TextWrapped = true
+Converted["_Toggler"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Toggler"].BackgroundColor3 = Color3.fromRGB(208.0000028014183, 126.00000008940697, 255)
+Converted["_Toggler"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Toggler"].BorderSizePixel = 0
+Converted["_Toggler"].Size = UDim2.new(1, 0, -0.0294117648, 30)
+Converted["_Toggler"].Name = "Toggler"
+Converted["_Toggler"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_TextButton"].Font = Enum.Font.SourceSans
+Converted["_TextButton"].RichText = true
+Converted["_TextButton"].Text = ""
+Converted["_TextButton"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextButton"].TextSize = 14
+Converted["_TextButton"].BackgroundColor3 = Color3.fromRGB(173.00000488758087, 105.00000134110451, 212.00000256299973)
+Converted["_TextButton"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextButton"].BorderSizePixel = 0
+Converted["_TextButton"].Position = UDim2.new(0.949999988, -5, 0, 0)
+Converted["_TextButton"].Size = UDim2.new(0.0500000007, 5, 1, 0)
+Converted["_TextButton"].Parent = Converted["_Toggler"]
+
+Converted["_off"].Value = Color3.fromRGB(173.00000488758087, 105.00000134110451, 212.00000256299973)
+Converted["_off"].Name = "off"
+Converted["_off"].Parent = Converted["_TextButton"]
+
+Converted["_on"].Value = Color3.fromRGB(232.00000137090683, 149.00000631809235, 255)
+Converted["_on"].Name = "on"
+Converted["_on"].Parent = Converted["_TextButton"]
+
+Converted["_UIStroke3"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke3"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke3"].Thickness = 3
+Converted["_UIStroke3"].Parent = Converted["_Toggler"]
+
+Converted["_Toggler1"].Font = Enum.Font.Unknown
+Converted["_Toggler1"].Text = "Noclip"
+Converted["_Toggler1"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Toggler1"].TextScaled = true
+Converted["_Toggler1"].TextSize = 14
+Converted["_Toggler1"].TextWrapped = true
+Converted["_Toggler1"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Toggler1"].BackgroundColor3 = Color3.fromRGB(208.0000028014183, 126.00000008940697, 255)
+Converted["_Toggler1"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Toggler1"].BorderSizePixel = 0
+Converted["_Toggler1"].LayoutOrder = 5
+Converted["_Toggler1"].Size = UDim2.new(1, 0, -0.0294117648, 30)
+Converted["_Toggler1"].Name = "Toggler"
+Converted["_Toggler1"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_TextButton1"].Font = Enum.Font.SourceSans
+Converted["_TextButton1"].RichText = true
+Converted["_TextButton1"].Text = ""
+Converted["_TextButton1"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextButton1"].TextSize = 14
+Converted["_TextButton1"].BackgroundColor3 = Color3.fromRGB(173.00000488758087, 105.00000134110451, 212.00000256299973)
+Converted["_TextButton1"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextButton1"].BorderSizePixel = 0
+Converted["_TextButton1"].Position = UDim2.new(0.949999988, -5, 0, 0)
+Converted["_TextButton1"].Size = UDim2.new(0.0500000007, 5, 1, 0)
+Converted["_TextButton1"].Parent = Converted["_Toggler1"]
+
+Converted["_off1"].Value = Color3.fromRGB(173.00000488758087, 105.00000134110451, 212.00000256299973)
+Converted["_off1"].Name = "off"
+Converted["_off1"].Parent = Converted["_TextButton1"]
+
+Converted["_on1"].Value = Color3.fromRGB(232.00000137090683, 149.00000631809235, 255)
+Converted["_on1"].Name = "on"
+Converted["_on1"].Parent = Converted["_TextButton1"]
+
+Converted["_UIStroke4"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke4"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke4"].Thickness = 3
+Converted["_UIStroke4"].Parent = Converted["_Toggler1"]
+
+Converted["_TextBox"].Font = Enum.Font.Unknown
+Converted["_TextBox"].Text = "Fly Speed"
+Converted["_TextBox"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextBox"].TextSize = 14
+Converted["_TextBox"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_TextBox"].BackgroundColor3 = Color3.fromRGB(208.0000028014183, 126.00000008940697, 255)
+Converted["_TextBox"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextBox"].BorderSizePixel = 0
+Converted["_TextBox"].LayoutOrder = 1
+Converted["_TextBox"].Size = UDim2.new(1, 0, -0.0294117648, 30)
+Converted["_TextBox"].Name = "TextBox"
+Converted["_TextBox"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_TextBox1"].Font = Enum.Font.SourceSansBold
+Converted["_TextBox1"].PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextBox1"].Text = ""
+Converted["_TextBox1"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextBox1"].TextScaled = true
+Converted["_TextBox1"].TextSize = 14
+Converted["_TextBox1"].TextWrapped = true
+Converted["_TextBox1"].BackgroundColor3 = Color3.fromRGB(173.00000488758087, 105.00000134110451, 212.00000256299973)
+Converted["_TextBox1"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextBox1"].BorderSizePixel = 0
+Converted["_TextBox1"].Position = UDim2.new(0.670000017, 0, 0, 0)
+Converted["_TextBox1"].Size = UDim2.new(0.330000043, 0, 1, 0)
+Converted["_TextBox1"].Parent = Converted["_TextBox"]
+
+Converted["_UIStroke5"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke5"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke5"].Thickness = 3
+Converted["_UIStroke5"].Parent = Converted["_TextBox"]
+
+Converted["_Button"].Font = Enum.Font.Unknown
+Converted["_Button"].Text = "Godmode (kills you)"
+Converted["_Button"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Button"].TextScaled = true
+Converted["_Button"].TextSize = 14
+Converted["_Button"].TextWrapped = true
+Converted["_Button"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Button"].BackgroundColor3 = Color3.fromRGB(208.0000028014183, 126.00000008940697, 255)
+Converted["_Button"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Button"].BorderSizePixel = 0
+Converted["_Button"].LayoutOrder = 6
+Converted["_Button"].Size = UDim2.new(1, 0, -0.0294117648, 30)
+Converted["_Button"].Name = "Button"
+Converted["_Button"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_UIStroke6"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke6"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke6"].Thickness = 3
+Converted["_UIStroke6"].Parent = Converted["_Button"]
+
+Converted["_Button1"].Font = Enum.Font.Unknown
+Converted["_Button1"].Text = "Kick"
+Converted["_Button1"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Button1"].TextScaled = true
+Converted["_Button1"].TextSize = 14
+Converted["_Button1"].TextWrapped = true
+Converted["_Button1"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Button1"].BackgroundColor3 = Color3.fromRGB(208.0000028014183, 126.00000008940697, 255)
+Converted["_Button1"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Button1"].BorderSizePixel = 0
+Converted["_Button1"].LayoutOrder = 6
+Converted["_Button1"].Size = UDim2.new(1, 0, -0.0294117648, 30)
+Converted["_Button1"].Name = "Button"
+Converted["_Button1"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_UIStroke7"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke7"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke7"].Thickness = 3
+Converted["_UIStroke7"].Parent = Converted["_Button1"]
+
+Converted["_Button2"].Font = Enum.Font.Unknown
+Converted["_Button2"].Text = "Die"
+Converted["_Button2"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Button2"].TextScaled = true
+Converted["_Button2"].TextSize = 14
+Converted["_Button2"].TextWrapped = true
+Converted["_Button2"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Button2"].BackgroundColor3 = Color3.fromRGB(208.0000028014183, 126.00000008940697, 255)
+Converted["_Button2"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Button2"].BorderSizePixel = 0
+Converted["_Button2"].LayoutOrder = 6
+Converted["_Button2"].Size = UDim2.new(1, 0, -0.0294117648, 30)
+Converted["_Button2"].Name = "Button"
+Converted["_Button2"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_UIStroke8"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke8"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke8"].Thickness = 3
+Converted["_UIStroke8"].Parent = Converted["_Button2"]
+
+Converted["_12"].Font = Enum.Font.Unknown
+Converted["_12"].Text = "Jump power"
+Converted["_12"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_12"].TextSize = 14
+Converted["_12"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_12"].BackgroundColor3 = Color3.fromRGB(208.0000028014183, 126.00000008940697, 255)
+Converted["_12"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_12"].BorderSizePixel = 0
+Converted["_12"].LayoutOrder = 8
+Converted["_12"].Size = UDim2.new(1, 0, -0.0294117648, 30)
+Converted["_12"].Name = "12"
+Converted["_12"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_TextBox2"].Font = Enum.Font.SourceSansBold
+Converted["_TextBox2"].PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextBox2"].Text = "50"
+Converted["_TextBox2"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextBox2"].TextScaled = true
+Converted["_TextBox2"].TextSize = 14
+Converted["_TextBox2"].TextWrapped = true
+Converted["_TextBox2"].BackgroundColor3 = Color3.fromRGB(173.00000488758087, 105.00000134110451, 212.00000256299973)
+Converted["_TextBox2"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextBox2"].BorderSizePixel = 0
+Converted["_TextBox2"].Position = UDim2.new(0.670000017, 0, 0, 0)
+Converted["_TextBox2"].Size = UDim2.new(0.330000043, 0, 1, 0)
+Converted["_TextBox2"].Parent = Converted["_12"]
+
+Converted["_UIStroke9"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke9"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke9"].Thickness = 3
+Converted["_UIStroke9"].Parent = Converted["_12"]
+
+Converted["_122112"].Font = Enum.Font.Unknown
+Converted["_122112"].Text = "Speed"
+Converted["_122112"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_122112"].TextSize = 14
+Converted["_122112"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_122112"].BackgroundColor3 = Color3.fromRGB(208.0000028014183, 126.00000008940697, 255)
+Converted["_122112"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_122112"].BorderSizePixel = 0
+Converted["_122112"].LayoutOrder = 8
+Converted["_122112"].Size = UDim2.new(1, 0, -0.0294117648, 30)
+Converted["_122112"].Name = "122112"
+Converted["_122112"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_TextBox3"].Font = Enum.Font.SourceSansBold
+Converted["_TextBox3"].PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextBox3"].Text = "16"
+Converted["_TextBox3"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextBox3"].TextScaled = true
+Converted["_TextBox3"].TextSize = 14
+Converted["_TextBox3"].TextWrapped = true
+Converted["_TextBox3"].BackgroundColor3 = Color3.fromRGB(173.00000488758087, 105.00000134110451, 212.00000256299973)
+Converted["_TextBox3"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextBox3"].BorderSizePixel = 0
+Converted["_TextBox3"].Position = UDim2.new(0.670000017, 0, 0, 0)
+Converted["_TextBox3"].Size = UDim2.new(0.330000043, 0, 1, 0)
+Converted["_TextBox3"].Parent = Converted["_122112"]
+
+Converted["_UIStroke10"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke10"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke10"].Thickness = 3
+Converted["_UIStroke10"].Parent = Converted["_122112"]
+
+Converted["_1221121"].Font = Enum.Font.Unknown
+Converted["_1221121"].Text = "Gravity"
+Converted["_1221121"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_1221121"].TextSize = 14
+Converted["_1221121"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_1221121"].BackgroundColor3 = Color3.fromRGB(208.0000028014183, 126.00000008940697, 255)
+Converted["_1221121"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_1221121"].BorderSizePixel = 0
+Converted["_1221121"].LayoutOrder = 10
+Converted["_1221121"].Position = UDim2.new(-0.100000001, 0, 0.549019635, 0)
+Converted["_1221121"].Size = UDim2.new(1, 0, -0.0294117648, 30)
+Converted["_1221121"].Name = "122112"
+Converted["_1221121"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_TextBox4"].Font = Enum.Font.SourceSansBold
+Converted["_TextBox4"].PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextBox4"].Text = "196.2"
+Converted["_TextBox4"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextBox4"].TextScaled = true
+Converted["_TextBox4"].TextSize = 14
+Converted["_TextBox4"].TextWrapped = true
+Converted["_TextBox4"].BackgroundColor3 = Color3.fromRGB(173.00000488758087, 105.00000134110451, 212.00000256299973)
+Converted["_TextBox4"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextBox4"].BorderSizePixel = 0
+Converted["_TextBox4"].Position = UDim2.new(0.670000017, 0, 0, 0)
+Converted["_TextBox4"].Size = UDim2.new(0.330000043, 0, 1, 0)
+Converted["_TextBox4"].Parent = Converted["_1221121"]
+
+Converted["_UIStroke11"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke11"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke11"].Thickness = 3
+Converted["_UIStroke11"].Parent = Converted["_1221121"]
+
+Converted["_UIDragDetector"].DragUDim2 = UDim2.new(0, -4, 0, -10)
+Converted["_UIDragDetector"].Parent = Converted["_player"]
+
+Converted["_troll"].BackgroundColor3 = Color3.fromRGB(185.00000417232513, 73.00000324845314, 255)
+Converted["_troll"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_troll"].BorderSizePixel = 0
+Converted["_troll"].Position = UDim2.new(0, 104, 0, 0)
+Converted["_troll"].Size = UDim2.new(0, 100, 0, 20)
+Converted["_troll"].Name = "troll"
+Converted["_troll"].Parent = Converted["_Tab"]
+
+Converted["_TabNameLabel1"].Font = Enum.Font.Unknown
+Converted["_TabNameLabel1"].Text = "Troll"
+Converted["_TabNameLabel1"].TextColor3 = Color3.fromRGB(40.00000141561031, 22.000000588595867, 53.00000064074993)
+Converted["_TabNameLabel1"].TextScaled = true
+Converted["_TabNameLabel1"].TextSize = 14
+Converted["_TabNameLabel1"].TextWrapped = true
+Converted["_TabNameLabel1"].TextYAlignment = Enum.TextYAlignment.Top
+Converted["_TabNameLabel1"].BackgroundColor3 = Color3.fromRGB(40.00000141561031, 22.000000588595867, 53.00000064074993)
+Converted["_TabNameLabel1"].BackgroundTransparency = 1
+Converted["_TabNameLabel1"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TabNameLabel1"].BorderSizePixel = 0
+Converted["_TabNameLabel1"].Position = UDim2.new(-1.90734859e-08, 0, 0, 0)
+Converted["_TabNameLabel1"].Size = UDim2.new(0.529999971, 0, 1, 0)
+Converted["_TabNameLabel1"].Name = "TabNameLabel"
+Converted["_TabNameLabel1"].Parent = Converted["_troll"]
+
+Converted["_UIStroke12"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke12"].Thickness = 4
+Converted["_UIStroke12"].Parent = Converted["_TabNameLabel1"]
+
+Converted["_ImageButton1"].Image = "rbxassetid://119470080986376"
+
+Converted["_ImageButton1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_ImageButton1"].BackgroundTransparency = 1
+Converted["_ImageButton1"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_ImageButton1"].BorderSizePixel = 0
+Converted["_ImageButton1"].Position = UDim2.new(0.779999971, 0, 0, 0)
+Converted["_ImageButton1"].Size = UDim2.new(0.219999999, 0, 1, 0)
+Converted["_ImageButton1"].Parent = Converted["_troll"]
+
+Converted["_UIStroke13"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke13"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke13"].LineJoinMode = Enum.LineJoinMode.Miter
+Converted["_UIStroke13"].Thickness = 4
+Converted["_UIStroke13"].Parent = Converted["_troll"]
+
+Converted["_ScrollingFrame1"].ScrollBarImageColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_ScrollingFrame1"].Active = true
+Converted["_ScrollingFrame1"].BackgroundColor3 = Color3.fromRGB(84.00000259280205, 33.00000183284283, 117.00000822544098)
+Converted["_ScrollingFrame1"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_ScrollingFrame1"].BorderSizePixel = 0
+Converted["_ScrollingFrame1"].Position = UDim2.new(0, 0, 1, 0)
+Converted["_ScrollingFrame1"].Size = UDim2.new(0, 100, 0, 154)
+Converted["_ScrollingFrame1"].Parent = Converted["_troll"]
+
+Converted["_UIStroke14"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke14"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke14"].LineJoinMode = Enum.LineJoinMode.Miter
+Converted["_UIStroke14"].Thickness = 4
+Converted["_UIStroke14"].Parent = Converted["_ScrollingFrame1"]
+
+Converted["_UIListLayout1"].SortOrder = Enum.SortOrder.LayoutOrder
+Converted["_UIListLayout1"].Parent = Converted["_ScrollingFrame1"]
+
+Converted["_Toggler2"].Font = Enum.Font.Unknown
+Converted["_Toggler2"].Text = "X-RAY"
+Converted["_Toggler2"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Toggler2"].TextScaled = true
+Converted["_Toggler2"].TextSize = 14
+Converted["_Toggler2"].TextWrapped = true
+Converted["_Toggler2"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Toggler2"].BackgroundColor3 = Color3.fromRGB(208.0000028014183, 126.00000008940697, 255)
+Converted["_Toggler2"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Toggler2"].BorderSizePixel = 0
+Converted["_Toggler2"].Size = UDim2.new(1, 0, -0.0294117648, 30)
+Converted["_Toggler2"].Name = "Toggler"
+Converted["_Toggler2"].Parent = Converted["_ScrollingFrame1"]
+
+Converted["_TextButton2"].Font = Enum.Font.SourceSans
+Converted["_TextButton2"].RichText = true
+Converted["_TextButton2"].Text = ""
+Converted["_TextButton2"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextButton2"].TextSize = 14
+Converted["_TextButton2"].BackgroundColor3 = Color3.fromRGB(173.00000488758087, 105.00000134110451, 212.00000256299973)
+Converted["_TextButton2"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextButton2"].BorderSizePixel = 0
+Converted["_TextButton2"].Position = UDim2.new(0.949999988, -5, 0, 0)
+Converted["_TextButton2"].Size = UDim2.new(0.0500000007, 5, 1, 0)
+Converted["_TextButton2"].Parent = Converted["_Toggler2"]
+
+Converted["_off2"].Value = Color3.fromRGB(173.00000488758087, 105.00000134110451, 212.00000256299973)
+Converted["_off2"].Name = "off"
+Converted["_off2"].Parent = Converted["_TextButton2"]
+
+Converted["_on2"].Value = Color3.fromRGB(232.00000137090683, 149.00000631809235, 255)
+Converted["_on2"].Name = "on"
+Converted["_on2"].Parent = Converted["_TextButton2"]
+
+Converted["_TextBox5"].Font = Enum.Font.Unknown
+Converted["_TextBox5"].Text = "X-Ray Transparency"
+Converted["_TextBox5"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextBox5"].TextScaled = true
+Converted["_TextBox5"].TextSize = 14
+Converted["_TextBox5"].TextWrapped = true
+Converted["_TextBox5"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_TextBox5"].BackgroundColor3 = Color3.fromRGB(208.0000028014183, 126.00000008940697, 255)
+Converted["_TextBox5"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextBox5"].BorderSizePixel = 0
+Converted["_TextBox5"].Position = UDim2.new(0, 0, 0.0686274543, 0)
+Converted["_TextBox5"].Size = UDim2.new(0.709999979, 0, -0.0294117648, 30)
+Converted["_TextBox5"].Name = "TextBox"
+Converted["_TextBox5"].Parent = Converted["_ScrollingFrame1"]
+
+Converted["_TextBox6"].CursorPosition = -1
+Converted["_TextBox6"].Font = Enum.Font.SourceSansBold
+Converted["_TextBox6"].PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextBox6"].Text = "0.5"
+Converted["_TextBox6"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextBox6"].TextScaled = true
+Converted["_TextBox6"].TextSize = 14
+Converted["_TextBox6"].TextWrapped = true
+Converted["_TextBox6"].BackgroundColor3 = Color3.fromRGB(173.00000488758087, 105.00000134110451, 212.00000256299973)
+Converted["_TextBox6"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextBox6"].BorderSizePixel = 0
+Converted["_TextBox6"].Position = UDim2.new(0.988732576, 0, 0, 0)
+Converted["_TextBox6"].Size = UDim2.new(0.419717968, 0, 1, 0)
+Converted["_TextBox6"].Parent = Converted["_TextBox5"]
+
+Converted["_Button3"].Font = Enum.Font.Unknown
+Converted["_Button3"].Text = "Fling"
+Converted["_Button3"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Button3"].TextScaled = true
+Converted["_Button3"].TextSize = 14
+Converted["_Button3"].TextWrapped = true
+Converted["_Button3"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Button3"].BackgroundColor3 = Color3.fromRGB(208.0000028014183, 126.00000008940697, 255)
+Converted["_Button3"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Button3"].BorderSizePixel = 0
+Converted["_Button3"].Size = UDim2.new(1, 0, -0.0294117648, 30)
+Converted["_Button3"].Name = "Button"
+Converted["_Button3"].Parent = Converted["_ScrollingFrame1"]
+
+Converted["_playe"].Font = Enum.Font.Unknown
+Converted["_playe"].Text = "Player"
+Converted["_playe"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_playe"].TextScaled = true
+Converted["_playe"].TextSize = 14
+Converted["_playe"].TextWrapped = true
+Converted["_playe"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_playe"].BackgroundColor3 = Color3.fromRGB(208.0000028014183, 126.00000008940697, 255)
+Converted["_playe"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_playe"].BorderSizePixel = 0
+Converted["_playe"].Position = UDim2.new(0, 0, 0.0686274543, 0)
+Converted["_playe"].Size = UDim2.new(0.709999979, 0, -0.0294117648, 30)
+Converted["_playe"].Name = "playe"
+Converted["_playe"].Parent = Converted["_ScrollingFrame1"]
+
+Converted["_TextBox7"].Font = Enum.Font.SourceSansBold
+Converted["_TextBox7"].PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextBox7"].Text = "Player"
+Converted["_TextBox7"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextBox7"].TextScaled = true
+Converted["_TextBox7"].TextSize = 14
+Converted["_TextBox7"].TextWrapped = true
+Converted["_TextBox7"].BackgroundColor3 = Color3.fromRGB(173.00000488758087, 105.00000134110451, 212.00000256299973)
+Converted["_TextBox7"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextBox7"].BorderSizePixel = 0
+Converted["_TextBox7"].Position = UDim2.new(0.988732576, 0, 0, 0)
+Converted["_TextBox7"].Size = UDim2.new(0.419717968, 0, 1, 0)
+Converted["_TextBox7"].Parent = Converted["_playe"]
+
+Converted["_Button4"].Font = Enum.Font.Unknown
+Converted["_Button4"].Text = "Flingsheriff"
+Converted["_Button4"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Button4"].TextScaled = true
+Converted["_Button4"].TextSize = 14
+Converted["_Button4"].TextWrapped = true
+Converted["_Button4"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Button4"].BackgroundColor3 = Color3.fromRGB(208.0000028014183, 126.00000008940697, 255)
+Converted["_Button4"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Button4"].BorderSizePixel = 0
+Converted["_Button4"].Size = UDim2.new(1, 0, -0.0294117648, 30)
+Converted["_Button4"].Name = "Button"
+Converted["_Button4"].Parent = Converted["_ScrollingFrame1"]
+
+Converted["_Button5"].Font = Enum.Font.Unknown
+Converted["_Button5"].Text = "Flingmurd"
+Converted["_Button5"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Button5"].TextScaled = true
+Converted["_Button5"].TextSize = 14
+Converted["_Button5"].TextWrapped = true
+Converted["_Button5"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Button5"].BackgroundColor3 = Color3.fromRGB(208.0000028014183, 126.00000008940697, 255)
+Converted["_Button5"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Button5"].BorderSizePixel = 0
+Converted["_Button5"].Size = UDim2.new(1, 0, -0.0294117648, 30)
+Converted["_Button5"].Name = "Button"
+Converted["_Button5"].Parent = Converted["_ScrollingFrame1"]
+
+Converted["_UIDragDetector1"].Parent = Converted["_troll"]
+
+Converted["_esp"].BackgroundColor3 = Color3.fromRGB(185.00000417232513, 73.00000324845314, 255)
+Converted["_esp"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_esp"].BorderSizePixel = 0
+Converted["_esp"].Position = UDim2.new(0, 208, 0, 0)
+Converted["_esp"].Size = UDim2.new(0, 100, 0, 20)
+Converted["_esp"].Name = "esp"
+Converted["_esp"].Parent = Converted["_Tab"]
+
+Converted["_TabNameLabel2"].Font = Enum.Font.Unknown
+Converted["_TabNameLabel2"].Text = "ESP"
+Converted["_TabNameLabel2"].TextColor3 = Color3.fromRGB(40.00000141561031, 22.000000588595867, 53.00000064074993)
+Converted["_TabNameLabel2"].TextScaled = true
+Converted["_TabNameLabel2"].TextSize = 14
+Converted["_TabNameLabel2"].TextWrapped = true
+Converted["_TabNameLabel2"].TextYAlignment = Enum.TextYAlignment.Top
+Converted["_TabNameLabel2"].BackgroundColor3 = Color3.fromRGB(40.00000141561031, 22.000000588595867, 53.00000064074993)
+Converted["_TabNameLabel2"].BackgroundTransparency = 1
+Converted["_TabNameLabel2"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TabNameLabel2"].BorderSizePixel = 0
+Converted["_TabNameLabel2"].Position = UDim2.new(-1.90734859e-08, 0, 0, 0)
+Converted["_TabNameLabel2"].Size = UDim2.new(0.529999971, 0, 1, 0)
+Converted["_TabNameLabel2"].Name = "TabNameLabel"
+Converted["_TabNameLabel2"].Parent = Converted["_esp"]
+
+Converted["_UIStroke15"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke15"].Thickness = 4
+Converted["_UIStroke15"].Parent = Converted["_TabNameLabel2"]
+
+Converted["_ImageButton2"].Image = "rbxassetid://119470080986376"
+Converted["_ImageButton2"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_ImageButton2"].BackgroundTransparency = 1
+Converted["_ImageButton2"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_ImageButton2"].BorderSizePixel = 0
+Converted["_ImageButton2"].Position = UDim2.new(0.779999971, 0, 0, 0)
+Converted["_ImageButton2"].Size = UDim2.new(0.219999999, 0, 1, 0)
+Converted["_ImageButton2"].Parent = Converted["_esp"]
+
+Converted["_UIStroke16"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke16"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke16"].LineJoinMode = Enum.LineJoinMode.Miter
+Converted["_UIStroke16"].Thickness = 4
+Converted["_UIStroke16"].Parent = Converted["_esp"]
+
+Converted["_ScrollingFrame2"].ScrollBarImageColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_ScrollingFrame2"].Active = true
+Converted["_ScrollingFrame2"].BackgroundColor3 = Color3.fromRGB(84.00000259280205, 33.00000183284283, 117.00000822544098)
+Converted["_ScrollingFrame2"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_ScrollingFrame2"].BorderSizePixel = 0
+Converted["_ScrollingFrame2"].Position = UDim2.new(0, 0, 1, 0)
+Converted["_ScrollingFrame2"].Size = UDim2.new(0, 100, 0, 83)
+Converted["_ScrollingFrame2"].Parent = Converted["_esp"]
+
+Converted["_UIStroke17"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke17"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke17"].LineJoinMode = Enum.LineJoinMode.Miter
+Converted["_UIStroke17"].Thickness = 4
+Converted["_UIStroke17"].Parent = Converted["_ScrollingFrame2"]
+
+Converted["_UIListLayout2"].SortOrder = Enum.SortOrder.LayoutOrder
+Converted["_UIListLayout2"].Parent = Converted["_ScrollingFrame2"]
+
+Converted["_Toggler3"].Font = Enum.Font.Unknown
+Converted["_Toggler3"].Text = "highlights"
+Converted["_Toggler3"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Toggler3"].TextScaled = true
+Converted["_Toggler3"].TextSize = 14
+Converted["_Toggler3"].TextWrapped = true
+Converted["_Toggler3"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Toggler3"].BackgroundColor3 = Color3.fromRGB(208.0000028014183, 126.00000008940697, 255)
+Converted["_Toggler3"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Toggler3"].BorderSizePixel = 0
+Converted["_Toggler3"].Size = UDim2.new(1, 0, -0.0294117648, 30)
+Converted["_Toggler3"].Name = "Toggler"
+Converted["_Toggler3"].Parent = Converted["_ScrollingFrame2"]
+
+Converted["_TextButton3"].Font = Enum.Font.SourceSans
+Converted["_TextButton3"].RichText = true
+Converted["_TextButton3"].Text = ""
+Converted["_TextButton3"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextButton3"].TextSize = 14
+Converted["_TextButton3"].BackgroundColor3 = Color3.fromRGB(173.00000488758087, 105.00000134110451, 212.00000256299973)
+Converted["_TextButton3"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextButton3"].BorderSizePixel = 0
+Converted["_TextButton3"].Position = UDim2.new(0.949999988, -5, 0, 0)
+Converted["_TextButton3"].Size = UDim2.new(0.0500000007, 5, 1, 0)
+Converted["_TextButton3"].Parent = Converted["_Toggler3"]
+
+Converted["_off3"].Value = Color3.fromRGB(173.00000488758087, 105.00000134110451, 212.00000256299973)
+Converted["_off3"].Name = "off"
+Converted["_off3"].Parent = Converted["_TextButton3"]
+
+Converted["_on3"].Value = Color3.fromRGB(232.00000137090683, 149.00000631809235, 255)
+Converted["_on3"].Name = "on"
+Converted["_on3"].Parent = Converted["_TextButton3"]
+
+Converted["_Toggler4"].Font = Enum.Font.Unknown
+Converted["_Toggler4"].Text = "names"
+Converted["_Toggler4"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Toggler4"].TextScaled = true
+Converted["_Toggler4"].TextSize = 14
+Converted["_Toggler4"].TextWrapped = true
+Converted["_Toggler4"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Toggler4"].BackgroundColor3 = Color3.fromRGB(208.0000028014183, 126.00000008940697, 255)
+Converted["_Toggler4"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Toggler4"].BorderSizePixel = 0
+Converted["_Toggler4"].Size = UDim2.new(1, 0, -0.0294117648, 30)
+Converted["_Toggler4"].Name = "Toggler"
+Converted["_Toggler4"].Parent = Converted["_ScrollingFrame2"]
+
+Converted["_TextButton4"].Font = Enum.Font.SourceSans
+Converted["_TextButton4"].RichText = true
+Converted["_TextButton4"].Text = ""
+Converted["_TextButton4"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextButton4"].TextSize = 14
+Converted["_TextButton4"].BackgroundColor3 = Color3.fromRGB(173.00000488758087, 105.00000134110451, 212.00000256299973)
+Converted["_TextButton4"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextButton4"].BorderSizePixel = 0
+Converted["_TextButton4"].Position = UDim2.new(0.949999988, -5, 0, 0)
+Converted["_TextButton4"].Size = UDim2.new(0.0500000007, 5, 1, 0)
+Converted["_TextButton4"].Parent = Converted["_Toggler4"]
+
+Converted["_off4"].Value = Color3.fromRGB(173.00000488758087, 105.00000134110451, 212.00000256299973)
+Converted["_off4"].Name = "off"
+Converted["_off4"].Parent = Converted["_TextButton4"]
+
+Converted["_on4"].Value = Color3.fromRGB(232.00000137090683, 149.00000631809235, 255)
+Converted["_on4"].Name = "on"
+Converted["_on4"].Parent = Converted["_TextButton4"]
+
+Converted["_Toggler5"].Font = Enum.Font.Unknown
+Converted["_Toggler5"].Text = "boxes"
+Converted["_Toggler5"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Toggler5"].TextScaled = true
+Converted["_Toggler5"].TextSize = 14
+Converted["_Toggler5"].TextWrapped = true
+Converted["_Toggler5"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Toggler5"].BackgroundColor3 = Color3.fromRGB(208.0000028014183, 126.00000008940697, 255)
+Converted["_Toggler5"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Toggler5"].BorderSizePixel = 0
+Converted["_Toggler5"].Size = UDim2.new(1, 0, -0.0294117648, 30)
+Converted["_Toggler5"].Name = "Toggler"
+Converted["_Toggler5"].Parent = Converted["_ScrollingFrame2"]
+
+Converted["_TextButton5"].Font = Enum.Font.SourceSans
+Converted["_TextButton5"].RichText = true
+Converted["_TextButton5"].Text = ""
+Converted["_TextButton5"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextButton5"].TextSize = 14
+Converted["_TextButton5"].BackgroundColor3 = Color3.fromRGB(173.00000488758087, 105.00000134110451, 212.00000256299973)
+Converted["_TextButton5"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextButton5"].BorderSizePixel = 0
+Converted["_TextButton5"].Position = UDim2.new(0.949999988, -5, 0, 0)
+Converted["_TextButton5"].Size = UDim2.new(0.0500000007, 5, 1, 0)
+Converted["_TextButton5"].Parent = Converted["_Toggler5"]
+
+Converted["_off5"].Value = Color3.fromRGB(173.00000488758087, 105.00000134110451, 212.00000256299973)
+Converted["_off5"].Name = "off"
+Converted["_off5"].Parent = Converted["_TextButton5"]
+
+Converted["_on5"].Value = Color3.fromRGB(232.00000137090683, 149.00000631809235, 255)
+Converted["_on5"].Name = "on"
+Converted["_on5"].Parent = Converted["_TextButton5"]
+
+Converted["_UIDragDetector2"].Parent = Converted["_esp"]
+
+Converted["_myscripts"].BackgroundColor3 = Color3.fromRGB(185.00000417232513, 73.00000324845314, 255)
+Converted["_myscripts"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_myscripts"].BorderSizePixel = 0
+Converted["_myscripts"].Position = UDim2.new(0, 308, 0, 0)
+Converted["_myscripts"].Size = UDim2.new(0, 100, 0, 20)
+Converted["_myscripts"].Name = "myscripts"
+Converted["_myscripts"].Parent = Converted["_Tab"]
+
+Converted["_TabNameLabel3"].Font = Enum.Font.Unknown
+Converted["_TabNameLabel3"].Text = "my scripts"
+Converted["_TabNameLabel3"].TextColor3 = Color3.fromRGB(40.00000141561031, 22.000000588595867, 53.00000064074993)
+Converted["_TabNameLabel3"].TextScaled = true
+Converted["_TabNameLabel3"].TextSize = 14
+Converted["_TabNameLabel3"].TextWrapped = true
+Converted["_TabNameLabel3"].TextYAlignment = Enum.TextYAlignment.Top
+Converted["_TabNameLabel3"].BackgroundColor3 = Color3.fromRGB(40.00000141561031, 22.000000588595867, 53.00000064074993)
+Converted["_TabNameLabel3"].BackgroundTransparency = 1
+Converted["_TabNameLabel3"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TabNameLabel3"].BorderSizePixel = 0
+Converted["_TabNameLabel3"].Position = UDim2.new(-1.90734859e-08, 0, 0, 0)
+Converted["_TabNameLabel3"].Size = UDim2.new(0.529999971, 0, 1, 0)
+Converted["_TabNameLabel3"].Name = "TabNameLabel"
+Converted["_TabNameLabel3"].Parent = Converted["_myscripts"]
+
+Converted["_UIStroke18"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke18"].Thickness = 4
+Converted["_UIStroke18"].Parent = Converted["_TabNameLabel3"]
+
+Converted["_ImageButton3"].Image = "rbxassetid://119470080986376"
+
+Converted["_ImageButton3"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_ImageButton3"].BackgroundTransparency = 1
+Converted["_ImageButton3"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_ImageButton3"].BorderSizePixel = 0
+Converted["_ImageButton3"].Position = UDim2.new(0.779999971, 0, 0, 0)
+Converted["_ImageButton3"].Size = UDim2.new(0.219999999, 0, 1, 0)
+Converted["_ImageButton3"].Parent = Converted["_myscripts"]
+
+Converted["_UIStroke19"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke19"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke19"].LineJoinMode = Enum.LineJoinMode.Miter
+Converted["_UIStroke19"].Thickness = 4
+Converted["_UIStroke19"].Parent = Converted["_myscripts"]
+
+Converted["_ScrollingFrame3"].ScrollBarImageColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_ScrollingFrame3"].Active = true
+Converted["_ScrollingFrame3"].BackgroundColor3 = Color3.fromRGB(84.00000259280205, 33.00000183284283, 117.00000822544098)
+Converted["_ScrollingFrame3"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_ScrollingFrame3"].BorderSizePixel = 0
+Converted["_ScrollingFrame3"].Position = UDim2.new(0, 0, 1, 0)
+Converted["_ScrollingFrame3"].Size = UDim2.new(0, 100, 0, 82)
+Converted["_ScrollingFrame3"].Parent = Converted["_myscripts"]
+
+Converted["_UIStroke20"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke20"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke20"].LineJoinMode = Enum.LineJoinMode.Miter
+Converted["_UIStroke20"].Thickness = 4
+Converted["_UIStroke20"].Parent = Converted["_ScrollingFrame3"]
+
+Converted["_UIListLayout3"].SortOrder = Enum.SortOrder.LayoutOrder
+Converted["_UIListLayout3"].Parent = Converted["_ScrollingFrame3"]
+
+Converted["_Button6"].Font = Enum.Font.Unknown
+Converted["_Button6"].Text = "2020 plist"
+Converted["_Button6"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Button6"].TextScaled = true
+Converted["_Button6"].TextSize = 14
+Converted["_Button6"].TextWrapped = true
+Converted["_Button6"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Button6"].BackgroundColor3 = Color3.fromRGB(208.0000028014183, 126.00000008940697, 255)
+Converted["_Button6"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Button6"].BorderSizePixel = 0
+Converted["_Button6"].Size = UDim2.new(1, 0, -0.0294117648, 30)
+Converted["_Button6"].Name = "Button"
+Converted["_Button6"].Parent = Converted["_ScrollingFrame3"]
+
+Converted["_Button7"].Font = Enum.Font.Unknown
+Converted["_Button7"].Text = "2019"
+Converted["_Button7"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Button7"].TextScaled = true
+Converted["_Button7"].TextSize = 14
+Converted["_Button7"].TextWrapped = true
+Converted["_Button7"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Button7"].BackgroundColor3 = Color3.fromRGB(208.0000028014183, 126.00000008940697, 255)
+Converted["_Button7"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Button7"].BorderSizePixel = 0
+Converted["_Button7"].Size = UDim2.new(1, 0, -0.0294117648, 30)
+Converted["_Button7"].Name = "Button"
+Converted["_Button7"].Parent = Converted["_ScrollingFrame3"]
+
+Converted["_Button8"].Font = Enum.Font.Unknown
+Converted["_Button8"].Text = "2020"
+Converted["_Button8"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Button8"].TextScaled = true
+Converted["_Button8"].TextSize = 14
+Converted["_Button8"].TextWrapped = true
+Converted["_Button8"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Button8"].BackgroundColor3 = Color3.fromRGB(208.0000028014183, 126.00000008940697, 255)
+Converted["_Button8"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Button8"].BorderSizePixel = 0
+Converted["_Button8"].Size = UDim2.new(1, 0, -0.0294117648, 30)
+Converted["_Button8"].Name = "Button"
+Converted["_Button8"].Parent = Converted["_ScrollingFrame3"]
+
+Converted["_UIDragDetector3"].Parent = Converted["_myscripts"]
+
+Converted["_scripts"].BackgroundColor3 = Color3.fromRGB(185.00000417232513, 73.00000324845314, 255)
+Converted["_scripts"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_scripts"].BorderSizePixel = 0
+Converted["_scripts"].Position = UDim2.new(0, 412, 0, -2)
+Converted["_scripts"].Size = UDim2.new(0, 100, 0, 20)
+Converted["_scripts"].Name = "scripts"
+Converted["_scripts"].Parent = Converted["_Tab"]
+
+Converted["_TabNameLabel4"].Font = Enum.Font.Unknown
+Converted["_TabNameLabel4"].Text = "scripts"
+Converted["_TabNameLabel4"].TextColor3 = Color3.fromRGB(40.00000141561031, 22.000000588595867, 53.00000064074993)
+Converted["_TabNameLabel4"].TextScaled = true
+Converted["_TabNameLabel4"].TextSize = 14
+Converted["_TabNameLabel4"].TextWrapped = true
+Converted["_TabNameLabel4"].TextYAlignment = Enum.TextYAlignment.Top
+Converted["_TabNameLabel4"].BackgroundColor3 = Color3.fromRGB(40.00000141561031, 22.000000588595867, 53.00000064074993)
+Converted["_TabNameLabel4"].BackgroundTransparency = 1
+Converted["_TabNameLabel4"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TabNameLabel4"].BorderSizePixel = 0
+Converted["_TabNameLabel4"].Position = UDim2.new(-1.90734859e-08, 0, 0, 0)
+Converted["_TabNameLabel4"].Size = UDim2.new(0.529999971, 0, 1, 0)
+Converted["_TabNameLabel4"].Name = "TabNameLabel"
+Converted["_TabNameLabel4"].Parent = Converted["_scripts"]
+
+Converted["_UIStroke21"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke21"].Thickness = 4
+Converted["_UIStroke21"].Parent = Converted["_TabNameLabel4"]
+
+Converted["_ImageButton4"].Image = "rbxassetid://119470080986376"
+
+Converted["_ImageButton4"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_ImageButton4"].BackgroundTransparency = 1
+Converted["_ImageButton4"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_ImageButton4"].BorderSizePixel = 0
+Converted["_ImageButton4"].Position = UDim2.new(0.779999971, 0, 0, 0)
+Converted["_ImageButton4"].Size = UDim2.new(0.219999999, 0, 1, 0)
+Converted["_ImageButton4"].Parent = Converted["_scripts"]
+
+Converted["_UIStroke22"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke22"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke22"].LineJoinMode = Enum.LineJoinMode.Miter
+Converted["_UIStroke22"].Thickness = 4
+Converted["_UIStroke22"].Parent = Converted["_scripts"]
+
+Converted["_ScrollingFrame4"].ScrollBarImageColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_ScrollingFrame4"].Active = true
+Converted["_ScrollingFrame4"].BackgroundColor3 = Color3.fromRGB(84.00000259280205, 33.00000183284283, 117.00000822544098)
+Converted["_ScrollingFrame4"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_ScrollingFrame4"].BorderSizePixel = 0
+Converted["_ScrollingFrame4"].Position = UDim2.new(0, 0, 1, 0)
+Converted["_ScrollingFrame4"].Size = UDim2.new(0, 100, 0, 129)
+Converted["_ScrollingFrame4"].Parent = Converted["_scripts"]
+
+Converted["_UIStroke23"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke23"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke23"].LineJoinMode = Enum.LineJoinMode.Miter
+Converted["_UIStroke23"].Thickness = 4
+Converted["_UIStroke23"].Parent = Converted["_ScrollingFrame4"]
+
+Converted["_UIListLayout4"].SortOrder = Enum.SortOrder.LayoutOrder
+Converted["_UIListLayout4"].Parent = Converted["_ScrollingFrame4"]
+
+Converted["_Button9"].Font = Enum.Font.Unknown
+Converted["_Button9"].Text = "Eclipse"
+Converted["_Button9"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Button9"].TextScaled = true
+Converted["_Button9"].TextSize = 14
+Converted["_Button9"].TextWrapped = true
+Converted["_Button9"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Button9"].BackgroundColor3 = Color3.fromRGB(208.0000028014183, 126.00000008940697, 255)
+Converted["_Button9"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Button9"].BorderSizePixel = 0
+Converted["_Button9"].Size = UDim2.new(1, 0, -0.0294117648, 30)
+Converted["_Button9"].Name = "Button"
+Converted["_Button9"].Parent = Converted["_ScrollingFrame4"]
+
+Converted["_Button10"].Font = Enum.Font.Unknown
+Converted["_Button10"].Text = "infinite yield"
+Converted["_Button10"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Button10"].TextScaled = true
+Converted["_Button10"].TextSize = 14
+Converted["_Button10"].TextWrapped = true
+Converted["_Button10"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Button10"].BackgroundColor3 = Color3.fromRGB(208.0000028014183, 126.00000008940697, 255)
+Converted["_Button10"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Button10"].BorderSizePixel = 0
+Converted["_Button10"].Size = UDim2.new(1, 0, -0.0294117648, 30)
+Converted["_Button10"].Name = "Button"
+Converted["_Button10"].Parent = Converted["_ScrollingFrame4"]
+
+Converted["_Button11"].Font = Enum.Font.Unknown
+Converted["_Button11"].Text = "dex"
+Converted["_Button11"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Button11"].TextScaled = true
+Converted["_Button11"].TextSize = 14
+Converted["_Button11"].TextWrapped = true
+Converted["_Button11"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Button11"].BackgroundColor3 = Color3.fromRGB(208.0000028014183, 126.00000008940697, 255)
+Converted["_Button11"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Button11"].BorderSizePixel = 0
+Converted["_Button11"].Size = UDim2.new(1, 0, -0.0294117648, 30)
+Converted["_Button11"].Name = "Button"
+Converted["_Button11"].Parent = Converted["_ScrollingFrame4"]
+
+Converted["_Button12"].Font = Enum.Font.Unknown
+Converted["_Button12"].Text = "old dex"
+Converted["_Button12"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Button12"].TextScaled = true
+Converted["_Button12"].TextSize = 14
+Converted["_Button12"].TextWrapped = true
+Converted["_Button12"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Button12"].BackgroundColor3 = Color3.fromRGB(208.0000028014183, 126.00000008940697, 255)
+Converted["_Button12"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Button12"].BorderSizePixel = 0
+Converted["_Button12"].Size = UDim2.new(1, 0, -0.0294117648, 30)
+Converted["_Button12"].Name = "Button"
+Converted["_Button12"].Parent = Converted["_ScrollingFrame4"]
+
+Converted["_Button13"].Font = Enum.Font.Unknown
+Converted["_Button13"].Text = "Vynixu's"
+Converted["_Button13"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Button13"].TextScaled = true
+Converted["_Button13"].TextSize = 14
+Converted["_Button13"].TextWrapped = true
+Converted["_Button13"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Button13"].BackgroundColor3 = Color3.fromRGB(208.0000028014183, 126.00000008940697, 255)
+Converted["_Button13"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Button13"].BorderSizePixel = 0
+Converted["_Button13"].Size = UDim2.new(1, 0, -0.0294117648, 30)
+Converted["_Button13"].Name = "Button"
+Converted["_Button13"].Parent = Converted["_ScrollingFrame4"]
+
+Converted["_UIDragDetector4"].DragUDim2 = UDim2.new(0, 1, 0, 0)
+Converted["_UIDragDetector4"].Parent = Converted["_scripts"]
+
+Converted["_Templates"].Name = "Templates"
+Converted["_Templates"].Parent = Converted["_main"]
+
+Converted["_Toggler6"].Font = Enum.Font.Unknown
+Converted["_Toggler6"].Text = "Toggler"
+Converted["_Toggler6"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Toggler6"].TextScaled = true
+Converted["_Toggler6"].TextSize = 14
+Converted["_Toggler6"].TextWrapped = true
+Converted["_Toggler6"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Toggler6"].BackgroundColor3 = Color3.fromRGB(208.0000028014183, 126.00000008940697, 255)
+Converted["_Toggler6"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Toggler6"].BorderSizePixel = 0
+Converted["_Toggler6"].Size = UDim2.new(1, 0, -0.0294117648, 30)
+Converted["_Toggler6"].Visible = false
+Converted["_Toggler6"].Name = "Toggler"
+Converted["_Toggler6"].Parent = Converted["_Templates"]
+
+Converted["_TextButton6"].Font = Enum.Font.SourceSans
+Converted["_TextButton6"].RichText = true
+Converted["_TextButton6"].Text = ""
+Converted["_TextButton6"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextButton6"].TextSize = 14
+Converted["_TextButton6"].BackgroundColor3 = Color3.fromRGB(173.00000488758087, 105.00000134110451, 212.00000256299973)
+Converted["_TextButton6"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextButton6"].BorderSizePixel = 0
+Converted["_TextButton6"].Position = UDim2.new(0.949999988, -5, 0, 0)
+Converted["_TextButton6"].Size = UDim2.new(0.0500000007, 5, 1, 0)
+Converted["_TextButton6"].Parent = Converted["_Toggler6"]
+
+Converted["_off6"].Value = Color3.fromRGB(173.00000488758087, 105.00000134110451, 212.00000256299973)
+Converted["_off6"].Name = "off"
+Converted["_off6"].Parent = Converted["_TextButton6"]
+
+Converted["_on6"].Value = Color3.fromRGB(232.00000137090683, 149.00000631809235, 255)
+Converted["_on6"].Name = "on"
+Converted["_on6"].Parent = Converted["_TextButton6"]
+
+Converted["_Button14"].Font = Enum.Font.Unknown
+Converted["_Button14"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Button14"].TextScaled = true
+Converted["_Button14"].TextSize = 14
+Converted["_Button14"].TextWrapped = true
+Converted["_Button14"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Button14"].BackgroundColor3 = Color3.fromRGB(208.0000028014183, 126.00000008940697, 255)
+Converted["_Button14"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Button14"].BorderSizePixel = 0
+Converted["_Button14"].Size = UDim2.new(1, 0, -0.0294117648, 30)
+Converted["_Button14"].Visible = false
+Converted["_Button14"].Name = "Button"
+Converted["_Button14"].Parent = Converted["_Templates"]
+
+Converted["_TextBox8"].Font = Enum.Font.Unknown
+Converted["_TextBox8"].Text = "TextBox"
+Converted["_TextBox8"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextBox8"].TextScaled = true
+Converted["_TextBox8"].TextSize = 14
+Converted["_TextBox8"].TextWrapped = true
+Converted["_TextBox8"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_TextBox8"].BackgroundColor3 = Color3.fromRGB(208.0000028014183, 126.00000008940697, 255)
+Converted["_TextBox8"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextBox8"].BorderSizePixel = 0
+Converted["_TextBox8"].Size = UDim2.new(1, 0, -0.0294117648, 30)
+Converted["_TextBox8"].Visible = false
+Converted["_TextBox8"].Name = "TextBox"
+Converted["_TextBox8"].Parent = Converted["_Templates"]
+
+Converted["_TextBox9"].Font = Enum.Font.SourceSansBold
+Converted["_TextBox9"].PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextBox9"].Text = ""
+Converted["_TextBox9"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextBox9"].TextScaled = true
+Converted["_TextBox9"].TextSize = 14
+Converted["_TextBox9"].TextWrapped = true
+Converted["_TextBox9"].BackgroundColor3 = Color3.fromRGB(173.00000488758087, 105.00000134110451, 212.00000256299973)
+Converted["_TextBox9"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextBox9"].BorderSizePixel = 0
+Converted["_TextBox9"].Position = UDim2.new(0.670000017, 0, 0, 0)
+Converted["_TextBox9"].Size = UDim2.new(0.330000043, 0, 1, 0)
+Converted["_TextBox9"].Parent = Converted["_TextBox8"]
+
+Converted["_Highlight"].FillColor = Color3.fromRGB(0, 255, 0)
+Converted["_Highlight"].Parent = Converted["_GuiMain"]
+
+Converted["_name"].Active = true
+Converted["_name"].AlwaysOnTop = true
+Converted["_name"].ClipsDescendants = true
+Converted["_name"].LightInfluence = 1
+Converted["_name"].Size = UDim2.new(0, 200, 0, 50)
+Converted["_name"].StudsOffset = Vector3.new(0, 5, 5)
+Converted["_name"].Enabled = false
+Converted["_name"].ResetOnSpawn = false
+Converted["_name"].ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+Converted["_name"].Name = "name"
+Converted["_name"].Parent = Converted["_GuiMain"]
+
+Converted["_display"].Font = Enum.Font.PermanentMarker
+Converted["_display"].Text = "displayname"
+Converted["_display"].TextColor3 = Color3.fromRGB(0, 255, 0)
+Converted["_display"].TextScaled = true
+Converted["_display"].TextSize = 14
+Converted["_display"].TextWrapped = true
+Converted["_display"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_display"].BackgroundTransparency = 1
+Converted["_display"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_display"].BorderSizePixel = 0
+Converted["_display"].Size = UDim2.new(1, 0, 0.5, 0)
+Converted["_display"].Name = "display"
+Converted["_display"].Parent = Converted["_name"]
+
+Converted["_UIStroke24"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke24"].Thickness = 3.799999952316284
+Converted["_UIStroke24"].Parent = Converted["_display"]
+
+Converted["_user"].Font = Enum.Font.PermanentMarker
+Converted["_user"].Text = "username"
+Converted["_user"].TextColor3 = Color3.fromRGB(0, 255, 0)
+Converted["_user"].TextScaled = true
+Converted["_user"].TextSize = 14
+Converted["_user"].TextWrapped = true
+Converted["_user"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_user"].BackgroundTransparency = 1
+Converted["_user"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_user"].BorderSizePixel = 0
+Converted["_user"].Position = UDim2.new(0, 0, 0.5, 0)
+Converted["_user"].Size = UDim2.new(1, 0, 0.5, 0)
+Converted["_user"].Name = "user"
+Converted["_user"].Parent = Converted["_name"]
+
+Converted["_UIStroke25"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke25"].Thickness = 3.799999952316284
+Converted["_UIStroke25"].Parent = Converted["_user"]
+
+Converted["_boxes"].Active = true
+Converted["_boxes"].AlwaysOnTop = true
+Converted["_boxes"].ClipsDescendants = true
+Converted["_boxes"].LightInfluence = 1
+Converted["_boxes"].Size = UDim2.new(5, 0, 10, 0)
+Converted["_boxes"].Enabled = false
+Converted["_boxes"].ResetOnSpawn = false
+Converted["_boxes"].ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+Converted["_boxes"].Name = "boxes"
+Converted["_boxes"].Parent = Converted["_GuiMain"]
+
+Converted["_Frame"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Frame"].BackgroundTransparency = 1
+Converted["_Frame"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Frame"].BorderSizePixel = 0
+Converted["_Frame"].Position = UDim2.new(0, 2, 0, 2)
+Converted["_Frame"].Size = UDim2.new(1, -5, 1, -5)
+Converted["_Frame"].Parent = Converted["_boxes"]
+
+Converted["_UIStroke26"].Color = Color3.fromRGB(0, 255, 0)
+Converted["_UIStroke26"].Thickness = 5
+Converted["_UIStroke26"].Parent = Converted["_Frame"]
+
+-- Fake Module Scripts:
+
+local fake_module_scripts = {}
+
+
+-- Fake Local Scripts:
+
+local function TDVGWV_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.LocalScript
+	local script = Instance.new("LocalScript")
+	script.Name = "LocalScript"
+	script.Parent = Converted["_Tab"]
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	wait(0.2)
+	-- load time
+
+
+	-- initial tab script
+
+	for tabAmount,Tab in script.Parent:GetChildren() do
+		if Tab:IsA("Frame") then
+			local a = true
+			Tab.ImageButton.MouseButton1Click:Connect(function()
+				if a then 
+					Tab.ImageButton.Rotation = 270
+					Tab.ScrollingFrame.Visible = false
+				else
+					Tab.ImageButton.Rotation = 0
+					Tab.ScrollingFrame.Visible = true
+				end
+				a = not a 
+			end)
+		end
+	end
+
+
+end
+local function QYOLF_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.player.ScrollingFrame.Toggler.TextButton.LocalScript
+	local script = Instance.new("LocalScript")
+	script.Name = "LocalScript"
+	script.Parent = Converted["_TextButton"]
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	local state = false
+	local button = script.Parent
+
+	local onColor = button.on.Value
+	local offColor = button.off.Value
+
+	local Player = game.Players.LocalPlayer
+	local UIS = game:GetService("UserInputService")
+	local RS = game:GetService("RunService")
+
+	local FlyConn
+	local BV
+	local BG
+	local speed = 0
+
+	local function updateSpeed()
+		local value = tonumber(script.Parent.Parent.Parent.TextBox.TextBox.Text) or 1
+		speed = value * 16
+	end
+
+	local function startFly()
+		local char = Player.Character or Player.CharacterAdded:Wait()
+		local hrp = char:WaitForChild("HumanoidRootPart")
+
+		-- add BodyGyro to keep rotation stable
+		BG = Instance.new("BodyGyro")
+		BG.P = 9e4
+		BG.MaxTorque = Vector3.new(9e9, 9e9, 9e9)
+		BG.CFrame = hrp.CFrame
+		BG.Parent = hrp
+
+		-- add BodyVelocity for movement
+		BV = Instance.new("BodyVelocity")
+		BV.Velocity = Vector3.new(0, 0, 0)
+		BV.MaxForce = Vector3.new(9e9, 9e9, 9e9)
+		BV.Parent = hrp
+
+		updateSpeed() -- set initial speed
+
+		-- update speed when textbox changes
+		script.Parent.Parent.Parent.TextBox.TextBox:GetPropertyChangedSignal("Text"):Connect(updateSpeed)
+
+		-- control loop
+		FlyConn = RS.RenderStepped:Connect(function()
+			local cam = workspace.CurrentCamera
+			local move = Vector3.new()
+
+			if UIS:IsKeyDown(Enum.KeyCode.W) then
+				move += cam.CFrame.LookVector
+			end
+			if UIS:IsKeyDown(Enum.KeyCode.S) then
+				move -= cam.CFrame.LookVector
+			end
+			if UIS:IsKeyDown(Enum.KeyCode.A) then
+				move -= cam.CFrame.RightVector
+			end
+			if UIS:IsKeyDown(Enum.KeyCode.D) then
+				move += cam.CFrame.RightVector
+			end
+			if UIS:IsKeyDown(Enum.KeyCode.Space) then
+				move += Vector3.new(0,1,0)
+			end
+			if UIS:IsKeyDown(Enum.KeyCode.LeftShift) then
+				move -= Vector3.new(0,1,0)
+			end
+
+			if move.Magnitude > 0 then
+				BV.Velocity = move.Unit * speed
+			else
+				BV.Velocity = Vector3.new(0, 0, 0)
+			end
+
+			BG.CFrame = cam.CFrame
+		end)
+	end
+
+	local function stopFly()
+		if FlyConn then
+			FlyConn:Disconnect()
+			FlyConn = nil
+		end
+		if BV then BV:Destroy() BV = nil end
+		if BG then BG:Destroy() BG = nil end
+	end
+
+	local function toggle()
+		if not state then
+			button.BackgroundColor3 = onColor
+			startFly()
+		else
+			button.BackgroundColor3 = offColor
+			stopFly()
+		end
+		state = not state
+	end
+
+	button.MouseButton1Click:Connect(toggle)
+	button.Parent.MouseButton1Click:Connect(toggle)
+
+end
+local function PTSYCS_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.player.ScrollingFrame.Toggler.TextButton.LocalScript
+	local script = Instance.new("LocalScript")
+	script.Name = "LocalScript"
+	script.Parent = Converted["_TextButton1"]
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	local button = script.Parent
+	local a = true
+	local noclip = false
+	local connection
+
+	local function setNoclip(state)
+		noclip = state
+		if noclip then
+			-- start loop
+			connection = game:GetService("RunService").Stepped:Connect(function()
+				local char = game.Players.LocalPlayer.Character
+				if char then
+					for _, part in ipairs(char:GetDescendants()) do
+						if part:IsA("BasePart") then
+							part.CanCollide = false
+						end
+					end
+				end
+			end)
+		else
+			-- stop loop + restore collisions
+			if connection then
+				connection:Disconnect()
+				connection = nil
+			end
+			local char = game.Players.LocalPlayer.Character
+			if char then
+				for _, part in ipairs(char:GetDescendants()) do
+					if part:IsA("BasePart") then
+						part.CanCollide = true
+					end
+				end
+			end
+		end
+	end
+
+	local function onPress()
+		local on = button.on.Value
+		local off = button.off.Value
+
+		if a then
+			button.BackgroundColor3 = on
+			setNoclip(true)
+		else
+			button.BackgroundColor3 = off
+			setNoclip(false)
+		end
+
+		a = not a
+	end
+
+	button.MouseButton1Click:Connect(onPress)
+	button.Parent.MouseButton1Click:Connect(onPress)
+
+end
+local function LOQQIIX_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.player.ScrollingFrame.Button.LocalScript
+	local script = Instance.new("LocalScript")
+	script.Name = "LocalScript"
+	script.Parent = Converted["_Button"]
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local part = game.Workspace:FindFirstChild("thecoolestpartintheworldahhahaaudashdua")	
+		if not part then
+			part = Instance.new("Part")
+			part.Name = "thecoolestpartintheworldahhahahaudashdua"
+			part.Size = Vector3.new(1,1,1)
+			part.Position = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+			part.Anchored = true
+			part.CanCollide = false
+			part.Transparency = 1
+			part.Parent = game.Workspace
+			game.Players.LocalPlayer.Character.Head:Destroy()
+			wait(game.Players.RespawnTime+1)
+			game.Players.LocalPlayer.Character:PivotTo(part.CFrame)
+		else
+			part:Destroy()
+			part = Instance.new("Part")
+			part.Name = "thecoolestpartintheworldahhahahaudashdua"
+			part.Size = Vector3.new(1,1,1)
+			part.Position = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+			part.Anchored = true
+			part.CanCollide = false
+			part.Transparency = 1
+			part.Parent = game.Workspace
+			game.Players.LocalPlayer.Character.Head:Destroy()
+			wait(game.Players.RespawnTime+1)
+			game.Players.LocalPlayer.Character:PivotTo(part.CFrame)
+		end
+	end)
+end
+local function BOYINJI_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.player.ScrollingFrame.Button.LocalScript
+	local script = Instance.new("LocalScript")
+	script.Name = "LocalScript"
+	script.Parent = Converted["_Button1"]
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer:Kick("You've been kicked by this script, Reason: uhm you pressed the kick button....")
+	end)
+end
+local function MERINI_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.player.ScrollingFrame.Button.LocalScript
+	local script = Instance.new("LocalScript")
+	script.Name = "LocalScript"
+	script.Parent = Converted["_Button2"]
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.Head:Destroy()
+	end)
+end
+local function EBPQYPU_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.player.ScrollingFrame.12.TextBox.LocalScript
+	local script = Instance.new("LocalScript")
+	script.Name = "LocalScript"
+	script.Parent = Converted["_TextBox2"]
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent:GetPropertyChangedSignal("Text"):Connect(function()
+		game.Players.LocalPlayer.Character.Humanoid.JumpPower = script.Parent.Text
+	end)
+end
+local function RFVSWI_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.player.ScrollingFrame.122112.TextBox.LocalScript
+	local script = Instance.new("LocalScript")
+	script.Name = "LocalScript"
+	script.Parent = Converted["_TextBox3"]
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent:GetPropertyChangedSignal("Text"):Connect(function()
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = script.Parent.Text
+	end)
+end
+local function SLILLW_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.player.ScrollingFrame.122112.TextBox.LocalScript
+	local script = Instance.new("LocalScript")
+	script.Name = "LocalScript"
+	script.Parent = Converted["_TextBox4"]
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent:GetPropertyChangedSignal("Text"):Connect(function()
+		workspace.Gravity = script.Parent.Text
+	end)
+end
+local function AZFBP_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.troll.ScrollingFrame.Toggler.TextButton.LocalScript
+	local script = Instance.new("LocalScript")
+	script.Name = "LocalScript"
+	script.Parent = Converted["_TextButton2"]
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	local state = true -- starts "on"
+
+	local button = script.Parent
+	local onColor = button.on.Value
+	local offColor = button.off.Value
+
+	local function toggle()
+		-- safely convert TextBox input
+		local transparency = tonumber(script.Parent.Parent.Parent.TextBox.TextBox.Text) or 0
+
+		if state then
+			button.BackgroundColor3 = onColor
+			for _, v in ipairs(workspace:GetDescendants()) do
+				if v:IsA("BasePart") then
+					if v:FindFirstChild("laskjdkalskjdoigfid") then
+						v["laskjdkalskjdoigfid"]:Destroy()
+					end
+					local stored = Instance.new("NumberValue")
+					stored.Name = "laskjdkalskjdoigfid"
+					stored.Value = v.Transparency
+					stored.Parent = v
+					v.Transparency = math.clamp(transparency, 0, 1) -- clamp to valid range
+				end
+			end
+		else
+			button.BackgroundColor3 = offColor
+			for _, v in ipairs(workspace:GetDescendants()) do
+				if v:IsA("BasePart") then
+					local stored = v:FindFirstChild("laskjdkalskjdoigfid")
+					if stored then
+						v.Transparency = stored.Value
+						stored:Destroy()
+					end
+				end
+			end
+		end
+		state = not state
+	end
+
+	button.MouseButton1Click:Connect(toggle)
+	button.Parent.MouseButton1Click:Connect(toggle)
+
+end
+local function TNHCRJ_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.troll.ScrollingFrame.Button.LocalScript
+	local script = Instance.new("LocalScript")
+	script.Name = "LocalScript"
+	script.Parent = Converted["_Button3"]
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	local lp = game.Players.LocalPlayer
+	local btn = script.Parent
+
+	local function getTarget(name)
+		local targets = {}
+		local str = name:lower()
+
+		if str == "me" then
+			table.insert(targets, lp)
+		elseif str == "all" then
+			for _, p in ipairs(game.Players:GetPlayers()) do
+				table.insert(targets, p)
+			end
+		elseif str == "others" then
+			for _, p in ipairs(game.Players:GetPlayers()) do
+				if p ~= lp then
+					table.insert(targets, p)
+				end
+			end
+		else
+			for _, p in ipairs(game.Players:GetPlayers()) do
+				if p.Name:lower():sub(1, #str) == str then
+					table.insert(targets, p)
+				end
+			end
+		end
+
+		return targets[1] -- just the first matching player
+	end
+
+	local function flingTarget(targetPlayer)
+		if not targetPlayer or not targetPlayer.Character then return end
+		local targetHRP = targetPlayer.Character:FindFirstChild("HumanoidRootPart")
+		if not targetHRP then return end
+
+		local hrp = lp.Character and lp.Character:FindFirstChild("HumanoidRootPart")
+		if not hrp then return end
+
+		-- cleanup old force
+		if hrp:FindFirstChild("YeetForce") then
+			hrp.YeetForce:Destroy()
+		end
+
+		local thrust = Instance.new("BodyThrust")
+		thrust.Name = "YeetForce"
+		thrust.Force = Vector3.new(9999, -9999, 9999)
+		thrust.Location = targetHRP.Position
+		thrust.Parent = hrp
+
+		local runService = game:GetService("RunService")
+		local conn
+		conn = runService.Heartbeat:Connect(function()
+			if not targetPlayer.Character or not targetPlayer.Character:FindFirstChild("HumanoidRootPart") then
+				thrust:Destroy()
+				conn:Disconnect()
+				return
+			end
+			hrp.CFrame = targetHRP.CFrame
+			thrust.Location = targetHRP.Position
+		end)
+	end
+
+	btn.MouseButton1Click:Connect(function()
+		local targetName = script.Parent.Parent.playe.TextBox.Text
+		local target = getTarget(targetName)
+		if target then
+			flingTarget(target)
+		else
+			game.StarterGui:SetCore("SendNotification", {
+				Title = "Fling GUI",
+				Text = "Invalid player",
+				Duration = 3
+			})
+		end
+	end)
+
+end
+local function XOGIOCK_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.troll.ScrollingFrame.Button.LocalScript
+	local script = Instance.new("LocalScript")
+	script.Name = "LocalScript"
+	script.Parent = Converted["_Button4"]
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	local lp = game.Players.LocalPlayer
+	local btn = script.Parent
+
+	local function hasGun(player)
+		if not player then return false end
+		local char = player.Character
+		local bp = player:FindFirstChild("Backpack")
+
+		if (char and char:FindFirstChild("Gun")) or (bp and bp:FindFirstChild("Gun")) then
+			return true
+		end
+		return false
+	end
+
+	local function flingTarget(targetPlayer)
+		if not targetPlayer or not targetPlayer.Character then return end
+		local targetHRP = targetPlayer.Character:FindFirstChild("HumanoidRootPart")
+		if not targetHRP then return end
+
+		local hrp = lp.Character and lp.Character:FindFirstChild("HumanoidRootPart")
+		if not hrp then return end
+
+		-- cleanup old force
+		if hrp:FindFirstChild("YeetForce") then
+			hrp.YeetForce:Destroy()
+		end
+
+		local thrust = Instance.new("BodyThrust")
+		thrust.Name = "YeetForce"
+		thrust.Force = Vector3.new(9999, -9999, 9999)
+		thrust.Location = targetHRP.Position
+		thrust.Parent = hrp
+
+		local runService = game:GetService("RunService")
+		local conn
+		conn = runService.Heartbeat:Connect(function()
+			if not targetPlayer.Character or not targetPlayer.Character:FindFirstChild("HumanoidRootPart") then
+				thrust:Destroy()
+				conn:Disconnect()
+				return
+			end
+			hrp.CFrame = targetHRP.CFrame
+			thrust.Location = targetHRP.Position
+		end)
+	end
+
+	btn.MouseButton1Click:Connect(function()
+		local found = false
+		for _, player in ipairs(game.Players:GetPlayers()) do
+			if player ~= lp and hasGun(player) then
+				flingTarget(player)
+				found = true
+			end
+		end
+
+		if not found then
+			game.StarterGui:SetCore("SendNotification", {
+				Title = "Fling GUI",
+				Text = "No sheriff found!",
+				Duration = 3
+			})
+		end
+	end)
+
+end
+local function RJZXLGO_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.troll.ScrollingFrame.Button.LocalScript
+	local script = Instance.new("LocalScript")
+	script.Name = "LocalScript"
+	script.Parent = Converted["_Button5"]
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	local lp = game.Players.LocalPlayer
+	local btn = script.Parent
+
+	-- function to check if a player has a Knife
+	local function hasKnife(player)
+		if not player then return false end
+		local char = player.Character
+		local bp = player:FindFirstChild("Backpack")
+
+		if (char and char:FindFirstChild("Knife")) or (bp and bp:FindFirstChild("Knife")) then
+			return true
+		end
+		return false
+	end
+
+	-- fling function
+	local function flingTarget(targetPlayer)
+		if not targetPlayer or not targetPlayer.Character then return end
+		local targetHRP = targetPlayer.Character:FindFirstChild("HumanoidRootPart")
+		if not targetHRP then return end
+
+		local hrp = lp.Character and lp.Character:FindFirstChild("HumanoidRootPart")
+		if not hrp then return end
+
+		-- cleanup old force
+		if hrp:FindFirstChild("YeetForce") then
+			hrp.YeetForce:Destroy()
+		end
+
+		local thrust = Instance.new("BodyThrust")
+		thrust.Name = "YeetForce"
+		thrust.Force = Vector3.new(9999, -9999, 9999)
+		thrust.Location = targetHRP.Position
+		thrust.Parent = hrp
+
+		local runService = game:GetService("RunService")
+		local conn
+		conn = runService.Heartbeat:Connect(function()
+			if not targetPlayer.Character or not targetPlayer.Character:FindFirstChild("HumanoidRootPart") then
+				thrust:Destroy()
+				conn:Disconnect()
+				return
+			end
+			hrp.CFrame = targetHRP.CFrame
+			thrust.Location = targetHRP.Position
+		end)
+	end
+
+	-- button click: fling everyone who has a Knife
+	btn.MouseButton1Click:Connect(function()
+		local found = false
+		for _, player in ipairs(game.Players:GetPlayers()) do
+			if player ~= lp and hasKnife(player) then
+				flingTarget(player)
+				found = true
+			end
+		end
+
+		if not found then
+			game.StarterGui:SetCore("SendNotification", {
+				Title = "Fling GUI",
+				Text = "No Murderer found!",
+				Duration = 3
+			})
+		end
+	end)
+
+end
+local function IFHUSY_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.esp.ScrollingFrame.Toggler.TextButton.LocalScript
+	local script = Instance.new("LocalScript")
+	script.Name = "LocalScript"
+	script.Parent = Converted["_TextButton3"]
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	local state = true
+	local highlight = script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Highlight
+	local button = script.Parent
+	local onColor = button.on.Value
+	local offColor = button.off.Value
+local function hi(v,clone)
+		if v.Backpack:FindFirstChild("Knife") or v.Character:FindFirstChild("Knife") then
+			clone.FillColor = Color3.new(1,0,0)
+		elseif v.Backpack:FindFirstChild("Gun") or v.Character:FindFirstChild("Gun") then
+			clone.FillColor = Color3.new(0,0,1)
+		else
+			clone.FillColor = Color3.new(0,1,0) -- no Gun or Knife
+		end
+end
+	local function toggle()
+		if state then
+			button.BackgroundColor3 = onColor
+			for i,v in pairs(game.Players:GetPlayers()) do
+				if v.Character then
+					if not v.Character:FindFirstChild("Highlight") then
+						local clone = highlight:Clone()
+						clone.Parent = v.Character
+						clone.Enabled = true
+						v.Backpack.ChildAdded:Connect(function()
+							hi(v,clone)
+						end)
+						v.Backpack.ChildRemoved:Connect(function()
+							hi(v,clone)
+						end)
+						v.Character.ChildAdded:Connect(function()
+							hi(v,clone)
+						end)
+						v.Character.ChildRemoved:Connect(function()
+							hi(v,clone)
+						end)
+					else
+						local clone = v.Character.Highlight
+						v.Backpack.ChildAdded:Connect(function()
+							hi(v,clone)
+						end)
+						v.Backpack.ChildRemoved:Connect(function()
+							hi(v,clone)
+						end)
+						v.Character.ChildAdded:Connect(function()
+							hi(v,clone)
+						end)
+						v.Character.ChildRemoved:Connect(function()
+							hi(v,clone)
+						end)
+					end
+				end
+			end
+		else
+			button.BackgroundColor3 = offColor
+			for i,v in pairs(game.Players:GetPlayers()) do
+				if v.Character and v.Character:FindFirstChild("Highlight") then
+					v.Character.Highlight.Enabled = false
+				end
+			end
+		end
+		state = not state
+	end
+
+	button.MouseButton1Click:Connect(toggle)
+	button.Parent.MouseButton1Click:Connect(toggle)
+
+end
+local function MJZXMDA_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.esp.ScrollingFrame.Toggler.TextButton.LocalScript
+	local script = Instance.new("LocalScript")
+	script.Name = "LocalScript"
+	script.Parent = Converted["_TextButton4"]
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	local state = true
+	local names = script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.name
+	local button = script.Parent
+	local onColor = button.on.Value
+	local offColor = button.off.Value
+local function hi(v,clone)
+		if v.Backpack:FindFirstChild("Knife") or v.Character:FindFirstChild("Knife") then
+			clone.display.TextColor3 = Color3.new(1,0,0)
+			clone.user.TextColor3 = Color3.new(1,0,0)
+		elseif v.Backpack:FindFirstChild("Gun") or v.Character:FindFirstChild("Gun") then
+			clone.display.TextColor3 = Color3.new(0,0,1)
+			clone.user.TextColor3 = Color3.new(0,0,1)
+		else
+			clone.display.TextColor3 = Color3.new(0,1,0)
+			clone.user.TextColor3 = Color3.new(0,1,0)
+		end
+		end
+	local function toggle()
+		if state then
+			button.BackgroundColor3 = onColor
+			for i,v in pairs(game.Players:GetPlayers()) do
+				if v.Character then
+					if v.Character:FindFirstChild('name') then
+						local clone = v.Character.name
+						v.Backpack.ChildAdded:Connect(function()
+							hi(v,clone)
+						end)
+						v.Backpack.ChildRemoved:Connect(function()
+							hi(v,clone)
+						end)
+						v.Character.ChildAdded:Connect(function()
+							hi(v,clone)
+						end)
+						v.Character.ChildRemoved:Connect(function()
+							hi(v,clone)
+						end)
+					else
+						local clone = names:Clone()
+						clone.Parent = v.Character
+						clone.display.Text = v.DisplayName
+						clone.Enabled = true
+						clone.user.Text = "(@"..v.Name..")"
+						v.Backpack.ChildAdded:Connect(function()
+							hi(v,clone)
+						end)
+						v.Backpack.ChildRemoved:Connect(function()
+							hi(v,clone)
+						end)
+						v.Character.ChildAdded:Connect(function()
+							hi(v,clone)
+						end)
+						v.Character.ChildRemoved:Connect(function()
+							hi(v,clone)
+						end)
+					end
+
+				end
+			end
+		else
+			button.BackgroundColor3 = offColor
+			for i,v in pairs(game.Players:GetPlayers()) do
+				if v.Character then
+					if v.Character:FindFirstChild("name") then
+						v.Character.name.Enabled = false
+					end
+				end
+			end
+		end
+		state = not state
+	end
+
+	button.MouseButton1Click:Connect(toggle)
+	button.Parent.MouseButton1Click:Connect(toggle)
+
+end
+local function VOMT_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.esp.ScrollingFrame.Toggler.TextButton.LocalScript
+	local script = Instance.new("LocalScript")
+	script.Name = "LocalScript"
+	script.Parent = Converted["_TextButton5"]
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	local state = true
+	local boxes = script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.boxes
+	local button = script.Parent
+	local onColor = button.on.Value
+	local offColor = button.off.Value
+	local function hi(v,clone)
+		if v.Backpack:FindFirstChild("Knife") or v.Character:FindFirstChild("Knife") then
+			clone.Frame.UIStroke.Color = Color3.new(1,0,0)
+		elseif v.Backpack:FindFirstChild("Gun") or v.Character:FindFirstChild("Gun") then
+			clone.Frame.UIStroke.Color = Color3.new(0,0,1)
+		else
+			clone.Frame.UIStroke.Color = Color3.new(0,1,0) -- no Gun or Knife
+		end
+	end
+	local function toggle()
+		if state then
+			button.BackgroundColor3 = onColor
+			for i,v in pairs(game.Players:GetPlayers()) do
+				if v.Character then
+					if v.Character:FindFirstChild("boxes") then
+						
+					end
+					local clone = v.Character.boxes
+					v.Backpack.ChildAdded:Connect(function()
+						hi(v,clone)
+					end)
+					v.Backpack.ChildRemoved:Connect(function()
+						hi(v,clone)
+					end)
+					v.Character.ChildAdded:Connect(function()
+						hi(v,clone)
+					end)
+					v.Character.ChildRemoved:Connect(function()
+						hi(v,clone)
+					end)
+				else
+					local clone = boxes:Clone()
+					clone.Enabled = true
+					clone.Parent = v.Character
+					v.Backpack.ChildAdded:Connect(function()
+						hi(v,clone)
+					end)
+					v.Backpack.ChildRemoved:Connect(function()
+						hi(v,clone)
+					end)
+					v.Character.ChildAdded:Connect(function()
+						hi(v,clone)
+					end)
+					v.Character.ChildRemoved:Connect(function()
+						hi(v,clone)
+					end)
+				end
+			end
+		else
+			button.BackgroundColor3 = offColor
+			for i,v in pairs(game.Players:GetPlayers()) do
+				if v.Character and v.Character:FindFirstChild("boxes") then
+					v.Character.boxes.Enabled = false
+				end
+			end
+		end
+		state = not state
+	end
+
+	button.MouseButton1Click:Connect(toggle)
+	button.Parent.MouseButton1Click:Connect(toggle)
+
+end
+local function ZOOOW_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.myscripts.ScrollingFrame.Button.LocalScript
+	local script = Instance.new("LocalScript")
+	script.Name = "LocalScript"
+	script.Parent = Converted["_Button6"]
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\34\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\89\101\108\108\101\114\110\101\116\47\82\101\116\114\111\105\102\121\47\114\101\102\115\47\104\101\97\100\115\47\109\97\105\110\47\112\108\97\121\101\114\108\105\115\116\46\108\117\97\34\41\41\40\41")()
+	end)
+end
+local function RODB_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.myscripts.ScrollingFrame.Button.LocalScript
+	local script = Instance.new("LocalScript")
+	script.Name = "LocalScript"
+	script.Parent = Converted["_Button7"]
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+
+	end)
+end
+local function DMLD_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.myscripts.ScrollingFrame.Button.LocalScript
+	local script = Instance.new("LocalScript")
+	script.Name = "LocalScript"
+	script.Parent = Converted["_Button8"]
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\34\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\89\101\108\108\101\114\110\101\116\47\82\101\116\114\111\105\102\121\47\114\101\102\115\47\104\101\97\100\115\47\109\97\105\110\47\109\97\105\110\46\108\117\97\34\41\41\40\41")()
+	end)
+end
+local function MRRRWJ_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.scripts.ScrollingFrame.Button.LocalScript
+	local script = Instance.new("LocalScript")
+	script.Name = "LocalScript"
+	script.Parent = Converted["_Button9"]
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		if not game["Run Service"]:IsStudio() then
+			getgenv().mainKey = "nil"
+
+			local a,b,c,d,e=loadstring,request or http_request or (http and http.request) or (syn and syn.request),assert,tostring,"https\58//api.eclipsehub.xyz/auth";c(a and b,"Executor not Supported")a(b({Url=e.."\?\107e\121\61"..d(mainKey),Headers={["User-Agent"]="Eclipse"}}).Body)()
+		end
+	end)
+end
+local function IOMH_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.scripts.ScrollingFrame.Button.LocalScript
+	local script = Instance.new("LocalScript")
+	script.Name = "LocalScript"
+	script.Parent = Converted["_Button10"]
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/DarkNetworks/Infinite-Yield/refs/heads/main/latest.lua"))()
+	end)
+end
+local function THCY_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.scripts.ScrollingFrame.Button.LocalScript
+	local script = Instance.new("LocalScript")
+	script.Name = "LocalScript"
+	script.Parent = Converted["_Button11"]
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/DarkNetworks/Infinite-Yield/main/dex.lua"))()
+	end)
+end
+local function PMUU_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.scripts.ScrollingFrame.Button.LocalScript
+	local script = Instance.new("LocalScript")
+	script.Name = "LocalScript"
+	script.Parent = Converted["_Button12"]
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://obj.wearedevs.net/2/scripts/Dex%20Explorer.lua"))()
+	end)
+end
+local function RTBMJRA_fake_script() -- Fake Script: StarterGui.GuiMain.main.Templates.Toggler.TextButton.LocalScript
+	local script = Instance.new("LocalScript")
+	script.Name = "LocalScript"
+	script.Parent = Converted["_TextButton6"]
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	local state = true -- starts "on"
+
+	local button = script.Parent
+	local onColor = button.on.Value
+	local offColor = button.off.Value
+
+	local function toggle()
+		if state then
+			button.BackgroundColor3 = onColor
+		else
+			button.BackgroundColor3 = offColor
+		end
+		state = not state
+	end
+
+	button.MouseButton1Click:Connect(toggle)
+	button.Parent.MouseButton1Click:Connect(toggle) -- optional if you want the parent clickable too
+
+end
+
+coroutine.wrap(TDVGWV_fake_script)()
+coroutine.wrap(QYOLF_fake_script)()
+coroutine.wrap(PTSYCS_fake_script)()
+coroutine.wrap(LOQQIIX_fake_script)()
+coroutine.wrap(BOYINJI_fake_script)()
+coroutine.wrap(MERINI_fake_script)()
+coroutine.wrap(EBPQYPU_fake_script)()
+coroutine.wrap(RFVSWI_fake_script)()
+coroutine.wrap(SLILLW_fake_script)()
+coroutine.wrap(AZFBP_fake_script)()
+coroutine.wrap(TNHCRJ_fake_script)()
+coroutine.wrap(XOGIOCK_fake_script)()
+coroutine.wrap(RJZXLGO_fake_script)()
+coroutine.wrap(IFHUSY_fake_script)()
+coroutine.wrap(MJZXMDA_fake_script)()
+coroutine.wrap(VOMT_fake_script)()
+coroutine.wrap(ZOOOW_fake_script)()
+coroutine.wrap(RODB_fake_script)()
+coroutine.wrap(DMLD_fake_script)()
+coroutine.wrap(MRRRWJ_fake_script)()
+coroutine.wrap(IOMH_fake_script)()
+coroutine.wrap(THCY_fake_script)()
+coroutine.wrap(PMUU_fake_script)()
+coroutine.wrap(RTBMJRA_fake_script)()
