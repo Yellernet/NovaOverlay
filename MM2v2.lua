@@ -2106,6 +2106,7 @@ local function CAHQVUT_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab
 
 	local updater = nil -- thread reference
 
+	-- Function to update a highlight color for players
 	local function hi(v, clone)
 		if not (v and v.Character and clone) then return end
 
@@ -2118,14 +2119,40 @@ local function CAHQVUT_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab
 		end
 	end
 
+	-- Function to highlight coins
+	local function highlightCoin(coin, clone)
+		if not (coin and clone) then return end
+		clone.FillColor = Color3.fromRGB(255, 215, 0) -- gold color for coins
+	end
+
+	-- Function to highlight guns
+	local function highlightGun(gun, clone)
+		if not (gun and clone) then return end
+		clone.FillColor = Color3.fromRGB(128, 0, 128) -- purple for guns
+	end
+
 	local function startUpdater()
 		updater = task.spawn(function()
 			while espEnabled do
+				-- Update players
 				for _, v in pairs(game.Players:GetPlayers()) do
 					if v.Character and v.Character:FindFirstChild("ESPHighlight") then
 						hi(v, v.Character.ESPHighlight)
 					end
 				end
+
+				-- Update coins and guns in workspace
+				for _, descendant in pairs(workspace:GetDescendants()) do
+					local nameLower = descendant.Name:lower()
+					if descendant:FindFirstChild("ESPHighlight") then
+						if nameLower == "coin_server" then
+							highlightCoin(descendant, descendant.ESPHighlight)
+						elseif nameLower == "gun" or nameLower == "gundrop" then
+							highlightGun(descendant, descendant.ESPHighlight)
+						end
+					end
+				end
+
 				task.wait(0.2)
 			end
 		end)
@@ -2144,6 +2171,7 @@ local function CAHQVUT_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab
 			espEnabled = true
 			button.BackgroundColor3 = onColor
 
+			-- Player highlights
 			for _, v in pairs(game.Players:GetPlayers()) do
 				if v.Character and not v.Character:FindFirstChild("ESPHighlight") then
 					local clone = highlightTemplate:Clone()
@@ -2154,8 +2182,27 @@ local function CAHQVUT_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab
 				end
 			end
 
-			startUpdater()
+			-- Coin and Gun highlights
+			for _, descendant in pairs(workspace:GetDescendants()) do
+				local nameLower = descendant.Name:lower()
+				if not descendant:FindFirstChild("ESPHighlight") then
+					if nameLower == "coin_server" then
+						local clone = highlightTemplate:Clone()
+						clone.Name = "ESPHighlight"
+						clone.Parent = descendant
+						clone.Enabled = true
+						highlightCoin(descendant, clone)
+					elseif nameLower == "gun" or nameLower == "gundrop" then
+						local clone = highlightTemplate:Clone()
+						clone.Name = "ESPHighlight"
+						clone.Parent = descendant
+						clone.Enabled = true
+						highlightGun(descendant, clone)
+					end
+				end
+			end
 
+			startUpdater()
 		else
 			-- TURN OFF
 			espEnabled = false
@@ -2163,15 +2210,27 @@ local function CAHQVUT_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab
 
 			stopUpdater()
 
+			-- Remove player highlights
 			for _, v in pairs(game.Players:GetPlayers()) do
 				if v.Character and v.Character:FindFirstChild("ESPHighlight") then
 					v.Character.ESPHighlight:Destroy()
+				end
+			end
+
+			-- Remove coin and gun highlights
+			for _, descendant in pairs(workspace:GetDescendants()) do
+				local nameLower = descendant.Name:lower()
+				if descendant:FindFirstChild("ESPHighlight") then
+					if nameLower == "coin_server" or nameLower == "gun" or nameLower == "gundrop" then
+						descendant.ESPHighlight:Destroy()
+					end
 				end
 			end
 		end
 	end
 
 	button.Parent.MouseButton1Click:Connect(toggle)
+
 
 end
 local function XWPLP_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.esp.ScrollingFrame.Toggler.TextButton.LocalScript
@@ -2246,7 +2305,26 @@ local function XWPLP_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.e
 					hi(v, clone)
 				end
 			end
+			for i,v in workspace:GetDescendants() do
+				if v.Name:lower() == "gun" or v.Name:lower() == "gundrop" then
+					local clone = template:Clone()
+					clone.Name = "NameESP"
+					clone.Parent = v
+					clone.display.Text = v.Name
+					clone.user.Text = ""
+					clone.display.TextColor3 = Color3.new(0.6,0,1)
+					clone.Enabled = true
 
+				elseif v.Name:lower() == "coin_server" then
+					local clone = template:Clone()
+					clone.Name = "NameESP"
+					clone.Parent = v
+					clone.display.Text = "Coin"
+					clone.user.Text = ""
+					clone.display.TextColor3 = Color3.new(1,1,0)
+					clone.Enabled = true
+				end
+			end
 			startUpdater()
 		else
 			state = false
@@ -2259,10 +2337,16 @@ local function XWPLP_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.e
 					v.Character.NameESP:Destroy()
 				end
 			end
+			for i,v in workspace:GetDescendants() do
+				if v:FindFirstChild("NameESP") then
+					v.NameESP:Destroy()
+				end
+			end
 		end
 	end
 
 	button.Parent.MouseButton1Click:Connect(toggle)
+
 
 end
 local function KOSQM_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.esp.ScrollingFrame.Toggler.TextButton.LocalScript
@@ -2302,8 +2386,8 @@ local function KOSQM_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.e
 		updater = task.spawn(function()
 			while state do
 				for _, v in pairs(game.Players:GetPlayers()) do
-					if v.Character and v.Character:FindFirstChild("NameESP") then
-						hi(v, v.Character.NameESP)
+					if v.Character and v.Character:FindFirstChild("boxESP") then
+						hi(v, v.Character.boxESP)
 					end
 				end
 				task.wait(0.2)
@@ -2326,13 +2410,28 @@ local function KOSQM_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.e
 			for _, v in pairs(game.Players:GetPlayers()) do
 				if v.Character then
 					local clone = template:Clone()
-					clone.Name = "NameESP"
+					clone.Name = "boxESP"
 					clone.Parent = v.Character
 					clone.Enabled = true
 					hi(v, clone)
 				end
 			end
+			for i,v in workspace:GetDescendants() do
+				if v.Name:lower() == "gun" or v.Name:lower() == "gundrop" then
+					local clone = template:Clone()
+					clone.Name = "boxESP"
+					clone.Parent = v
+					clone.Frame.UIStroke.Color = Color3.new(0.6,0,1)
+					clone.Enabled = true
 
+				elseif v.Name:lower() == "coin_server" then
+					local clone = template:Clone()
+					clone.Name = "boxESP"
+					clone.Parent = v
+					clone.Frame.UIStroke.Color = Color3.new(1,1,0)
+					clone.Enabled = true
+				end
+			end
 			startUpdater()
 		else
 			state = false
@@ -2341,14 +2440,20 @@ local function KOSQM_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.e
 			stopUpdater()
 
 			for _, v in pairs(game.Players:GetPlayers()) do
-				if v.Character and v.Character:FindFirstChild("NameESP") then
-					v.Character.NameESP:Destroy()
+				if v.Character and v.Character:FindFirstChild("boxESP") then
+					v.Character.boxESP:Destroy()
+				end
+			end
+			for i,v in workspace:GetDescendants() do
+				if v:FindFirstChild("boxESP") then
+					v.boxESP:Destroy()
 				end
 			end
 		end
 	end
 
 	button.Parent.MouseButton1Click:Connect(toggle)
+
 
 end
 local function WHMZXKK_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.myscripts.ScrollingFrame.Button.LocalScript
@@ -2414,13 +2519,12 @@ local function GYRA_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.sc
 		end
 		return req(obj)
 	end
-
 	script.Parent.MouseButton1Click:Connect(function()
-		getgenv().mainKey = "nil"
+		--[[getgenv().mainKey = "nil"
 
 		
 		local a,b,c,d,e=loadstring,request or http_request or (http and http.request) or (syn and syn.request),assert,tostring,"https\58//api.eclipsehub.xyz/auth";c(a and b,"Executor not Supported")a(b({Url=e.."\?\107e\121\61"..d(mainKey),Headers={["User-Agent"]="Eclipse"}}).Body)()
-		
+		]]	
 	end)
 end
 local function RMGGC_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.scripts.ScrollingFrame.Button.LocalScript
