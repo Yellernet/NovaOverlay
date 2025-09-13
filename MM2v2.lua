@@ -1,6 +1,4 @@
--- Generated using RoadToGlory's Converter v1.1 (RoadToGlory#9879)
 
--- Instances:
 
 local Converted = {
 	["_GuiMain"] = Instance.new("GuiMain");
@@ -83,6 +81,8 @@ local Converted = {
 	["_TextBox8"] = Instance.new("TextBox");
 	["_Button8"] = Instance.new("TextButton");
 	["_LocalScript15"] = Instance.new("LocalScript");
+	["_Button9"] = Instance.new("TextButton");
+	["_LocalScript16"] = Instance.new("LocalScript");
 	["_UIDragDetector1"] = Instance.new("UIDragDetector");
 	["_esp"] = Instance.new("Frame");
 	["_TabNameLabel2"] = Instance.new("TextLabel");
@@ -94,17 +94,17 @@ local Converted = {
 	["_UIListLayout2"] = Instance.new("UIListLayout");
 	["_Toggler3"] = Instance.new("TextButton");
 	["_TextButton3"] = Instance.new("TextButton");
-	["_LocalScript16"] = Instance.new("LocalScript");
+	["_LocalScript17"] = Instance.new("LocalScript");
 	["_off3"] = Instance.new("Color3Value");
 	["_on3"] = Instance.new("Color3Value");
 	["_Toggler4"] = Instance.new("TextButton");
 	["_TextButton4"] = Instance.new("TextButton");
-	["_LocalScript17"] = Instance.new("LocalScript");
+	["_LocalScript18"] = Instance.new("LocalScript");
 	["_off4"] = Instance.new("Color3Value");
 	["_on4"] = Instance.new("Color3Value");
 	["_Toggler5"] = Instance.new("TextButton");
 	["_TextButton5"] = Instance.new("TextButton");
-	["_LocalScript18"] = Instance.new("LocalScript");
+	["_LocalScript19"] = Instance.new("LocalScript");
 	["_off5"] = Instance.new("Color3Value");
 	["_on5"] = Instance.new("Color3Value");
 	["_UIDragDetector2"] = Instance.new("UIDragDetector");
@@ -116,12 +116,12 @@ local Converted = {
 	["_ScrollingFrame3"] = Instance.new("ScrollingFrame");
 	["_UIStroke20"] = Instance.new("UIStroke");
 	["_UIListLayout3"] = Instance.new("UIListLayout");
-	["_Button9"] = Instance.new("TextButton");
-	["_LocalScript19"] = Instance.new("LocalScript");
 	["_Button10"] = Instance.new("TextButton");
 	["_LocalScript20"] = Instance.new("LocalScript");
 	["_Button11"] = Instance.new("TextButton");
 	["_LocalScript21"] = Instance.new("LocalScript");
+	["_Button12"] = Instance.new("TextButton");
+	["_LocalScript22"] = Instance.new("LocalScript");
 	["_UIDragDetector3"] = Instance.new("UIDragDetector");
 	["_scripts"] = Instance.new("Frame");
 	["_TabNameLabel4"] = Instance.new("TextLabel");
@@ -131,8 +131,6 @@ local Converted = {
 	["_ScrollingFrame4"] = Instance.new("ScrollingFrame");
 	["_UIStroke23"] = Instance.new("UIStroke");
 	["_UIListLayout4"] = Instance.new("UIListLayout");
-	["_Button12"] = Instance.new("TextButton");
-	["_LocalScript22"] = Instance.new("LocalScript");
 	["_Button13"] = Instance.new("TextButton");
 	["_LocalScript23"] = Instance.new("LocalScript");
 	["_Button14"] = Instance.new("TextButton");
@@ -141,14 +139,16 @@ local Converted = {
 	["_LocalScript25"] = Instance.new("LocalScript");
 	["_Button16"] = Instance.new("TextButton");
 	["_LocalScript26"] = Instance.new("LocalScript");
+	["_Button17"] = Instance.new("TextButton");
+	["_LocalScript27"] = Instance.new("LocalScript");
 	["_UIDragDetector4"] = Instance.new("UIDragDetector");
 	["_Templates"] = Instance.new("Folder");
 	["_Toggler6"] = Instance.new("TextButton");
 	["_TextButton6"] = Instance.new("TextButton");
-	["_LocalScript27"] = Instance.new("LocalScript");
+	["_LocalScript28"] = Instance.new("LocalScript");
 	["_off6"] = Instance.new("Color3Value");
 	["_on6"] = Instance.new("Color3Value");
-	["_Button17"] = Instance.new("TextButton");
+	["_Button18"] = Instance.new("TextButton");
 	["_TextBox9"] = Instance.new("TextButton");
 	["_TextBox10"] = Instance.new("TextBox");
 	["_Highlight"] = Instance.new("Highlight");
@@ -164,9 +164,8 @@ local Converted = {
 
 -- Properties:
 
-Converted["_GuiMain"].Enabled = false
 Converted["_GuiMain"].ResetOnSpawn = false
-Converted["_GuiMain"].Parent = game:GetService("CoreGui")
+Converted["_GuiMain"].Parent = game:GetService("Players").LocalPlayer.PlayerGui
 
 Converted["_main"].ResetOnSpawn = false
 Converted["_main"].ZIndexBehavior = Enum.ZIndexBehavior.Sibling
@@ -557,7 +556,7 @@ Converted["_ScrollingFrame1"].BackgroundColor3 = Color3.fromRGB(84.0000025928020
 Converted["_ScrollingFrame1"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_ScrollingFrame1"].BorderSizePixel = 0
 Converted["_ScrollingFrame1"].Position = UDim2.new(0, 0, 1, 0)
-Converted["_ScrollingFrame1"].Size = UDim2.new(0, 100, 0, 231)
+Converted["_ScrollingFrame1"].Size = UDim2.new(0, 100, 0, 250)
 Converted["_ScrollingFrame1"].Parent = Converted["_troll"]
 
 Converted["_UIStroke14"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
@@ -773,6 +772,20 @@ Converted["_Button8"].BorderSizePixel = 0
 Converted["_Button8"].Size = UDim2.new(1, 0, -0.0294117648, 30)
 Converted["_Button8"].Name = "Button"
 Converted["_Button8"].Parent = Converted["_ScrollingFrame1"]
+
+Converted["_Button9"].Font = Enum.Font.PermanentMarker
+Converted["_Button9"].Text = "TP TO GUN"
+Converted["_Button9"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Button9"].TextScaled = true
+Converted["_Button9"].TextSize = 14
+Converted["_Button9"].TextWrapped = true
+Converted["_Button9"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Button9"].BackgroundColor3 = Color3.fromRGB(208.0000028014183, 126.00000008940697, 255)
+Converted["_Button9"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Button9"].BorderSizePixel = 0
+Converted["_Button9"].Size = UDim2.new(1, 0, -0.0294117648, 30)
+Converted["_Button9"].Name = "Button"
+Converted["_Button9"].Parent = Converted["_ScrollingFrame1"]
 
 Converted["_UIDragDetector1"].Parent = Converted["_troll"]
 
@@ -1002,22 +1015,8 @@ Converted["_UIStroke20"].Parent = Converted["_ScrollingFrame3"]
 Converted["_UIListLayout3"].SortOrder = Enum.SortOrder.LayoutOrder
 Converted["_UIListLayout3"].Parent = Converted["_ScrollingFrame3"]
 
-Converted["_Button9"].Font = Enum.Font.PermanentMarker
-Converted["_Button9"].Text = "2020 plist"
-Converted["_Button9"].TextColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_Button9"].TextScaled = true
-Converted["_Button9"].TextSize = 14
-Converted["_Button9"].TextWrapped = true
-Converted["_Button9"].TextXAlignment = Enum.TextXAlignment.Left
-Converted["_Button9"].BackgroundColor3 = Color3.fromRGB(208.0000028014183, 126.00000008940697, 255)
-Converted["_Button9"].BorderColor3 = Color3.fromRGB(0, 0, 0)
-Converted["_Button9"].BorderSizePixel = 0
-Converted["_Button9"].Size = UDim2.new(1, 0, -0.0294117648, 30)
-Converted["_Button9"].Name = "Button"
-Converted["_Button9"].Parent = Converted["_ScrollingFrame3"]
-
 Converted["_Button10"].Font = Enum.Font.PermanentMarker
-Converted["_Button10"].Text = "2019"
+Converted["_Button10"].Text = "2020 plist"
 Converted["_Button10"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_Button10"].TextScaled = true
 Converted["_Button10"].TextSize = 14
@@ -1031,7 +1030,7 @@ Converted["_Button10"].Name = "Button"
 Converted["_Button10"].Parent = Converted["_ScrollingFrame3"]
 
 Converted["_Button11"].Font = Enum.Font.PermanentMarker
-Converted["_Button11"].Text = "2020"
+Converted["_Button11"].Text = "2019"
 Converted["_Button11"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_Button11"].TextScaled = true
 Converted["_Button11"].TextSize = 14
@@ -1043,6 +1042,20 @@ Converted["_Button11"].BorderSizePixel = 0
 Converted["_Button11"].Size = UDim2.new(1, 0, -0.0294117648, 30)
 Converted["_Button11"].Name = "Button"
 Converted["_Button11"].Parent = Converted["_ScrollingFrame3"]
+
+Converted["_Button12"].Font = Enum.Font.PermanentMarker
+Converted["_Button12"].Text = "2020"
+Converted["_Button12"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Button12"].TextScaled = true
+Converted["_Button12"].TextSize = 14
+Converted["_Button12"].TextWrapped = true
+Converted["_Button12"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Button12"].BackgroundColor3 = Color3.fromRGB(208.0000028014183, 126.00000008940697, 255)
+Converted["_Button12"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Button12"].BorderSizePixel = 0
+Converted["_Button12"].Size = UDim2.new(1, 0, -0.0294117648, 30)
+Converted["_Button12"].Name = "Button"
+Converted["_Button12"].Parent = Converted["_ScrollingFrame3"]
 
 Converted["_UIDragDetector3"].Parent = Converted["_myscripts"]
 
@@ -1107,22 +1120,8 @@ Converted["_UIStroke23"].Parent = Converted["_ScrollingFrame4"]
 Converted["_UIListLayout4"].SortOrder = Enum.SortOrder.LayoutOrder
 Converted["_UIListLayout4"].Parent = Converted["_ScrollingFrame4"]
 
-Converted["_Button12"].Font = Enum.Font.PermanentMarker
-Converted["_Button12"].Text = "Eclipse"
-Converted["_Button12"].TextColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_Button12"].TextScaled = true
-Converted["_Button12"].TextSize = 14
-Converted["_Button12"].TextWrapped = true
-Converted["_Button12"].TextXAlignment = Enum.TextXAlignment.Left
-Converted["_Button12"].BackgroundColor3 = Color3.fromRGB(208.0000028014183, 126.00000008940697, 255)
-Converted["_Button12"].BorderColor3 = Color3.fromRGB(0, 0, 0)
-Converted["_Button12"].BorderSizePixel = 0
-Converted["_Button12"].Size = UDim2.new(1, 0, -0.0294117648, 30)
-Converted["_Button12"].Name = "Button"
-Converted["_Button12"].Parent = Converted["_ScrollingFrame4"]
-
 Converted["_Button13"].Font = Enum.Font.PermanentMarker
-Converted["_Button13"].Text = "infinite yield"
+Converted["_Button13"].Text = "Eclipse"
 Converted["_Button13"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_Button13"].TextScaled = true
 Converted["_Button13"].TextSize = 14
@@ -1136,7 +1135,7 @@ Converted["_Button13"].Name = "Button"
 Converted["_Button13"].Parent = Converted["_ScrollingFrame4"]
 
 Converted["_Button14"].Font = Enum.Font.PermanentMarker
-Converted["_Button14"].Text = "dex"
+Converted["_Button14"].Text = "infinite yield"
 Converted["_Button14"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_Button14"].TextScaled = true
 Converted["_Button14"].TextSize = 14
@@ -1150,7 +1149,7 @@ Converted["_Button14"].Name = "Button"
 Converted["_Button14"].Parent = Converted["_ScrollingFrame4"]
 
 Converted["_Button15"].Font = Enum.Font.PermanentMarker
-Converted["_Button15"].Text = "old dex"
+Converted["_Button15"].Text = "dex"
 Converted["_Button15"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_Button15"].TextScaled = true
 Converted["_Button15"].TextSize = 14
@@ -1164,7 +1163,7 @@ Converted["_Button15"].Name = "Button"
 Converted["_Button15"].Parent = Converted["_ScrollingFrame4"]
 
 Converted["_Button16"].Font = Enum.Font.PermanentMarker
-Converted["_Button16"].Text = "Vynixu's"
+Converted["_Button16"].Text = "old dex"
 Converted["_Button16"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_Button16"].TextScaled = true
 Converted["_Button16"].TextSize = 14
@@ -1176,6 +1175,20 @@ Converted["_Button16"].BorderSizePixel = 0
 Converted["_Button16"].Size = UDim2.new(1, 0, -0.0294117648, 30)
 Converted["_Button16"].Name = "Button"
 Converted["_Button16"].Parent = Converted["_ScrollingFrame4"]
+
+Converted["_Button17"].Font = Enum.Font.PermanentMarker
+Converted["_Button17"].Text = "Vynixu's"
+Converted["_Button17"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Button17"].TextScaled = true
+Converted["_Button17"].TextSize = 14
+Converted["_Button17"].TextWrapped = true
+Converted["_Button17"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Button17"].BackgroundColor3 = Color3.fromRGB(208.0000028014183, 126.00000008940697, 255)
+Converted["_Button17"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Button17"].BorderSizePixel = 0
+Converted["_Button17"].Size = UDim2.new(1, 0, -0.0294117648, 30)
+Converted["_Button17"].Name = "Button"
+Converted["_Button17"].Parent = Converted["_ScrollingFrame4"]
 
 Converted["_UIDragDetector4"].DragUDim2 = UDim2.new(0, 1, 0, 0)
 Converted["_UIDragDetector4"].Parent = Converted["_scripts"]
@@ -1218,19 +1231,19 @@ Converted["_on6"].Value = Color3.fromRGB(232.00000137090683, 149.00000631809235,
 Converted["_on6"].Name = "on"
 Converted["_on6"].Parent = Converted["_TextButton6"]
 
-Converted["_Button17"].Font = Enum.Font.PermanentMarker
-Converted["_Button17"].TextColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_Button17"].TextScaled = true
-Converted["_Button17"].TextSize = 14
-Converted["_Button17"].TextWrapped = true
-Converted["_Button17"].TextXAlignment = Enum.TextXAlignment.Left
-Converted["_Button17"].BackgroundColor3 = Color3.fromRGB(208.0000028014183, 126.00000008940697, 255)
-Converted["_Button17"].BorderColor3 = Color3.fromRGB(0, 0, 0)
-Converted["_Button17"].BorderSizePixel = 0
-Converted["_Button17"].Size = UDim2.new(1, 0, -0.0294117648, 30)
-Converted["_Button17"].Visible = false
-Converted["_Button17"].Name = "Button"
-Converted["_Button17"].Parent = Converted["_Templates"]
+Converted["_Button18"].Font = Enum.Font.PermanentMarker
+Converted["_Button18"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Button18"].TextScaled = true
+Converted["_Button18"].TextSize = 14
+Converted["_Button18"].TextWrapped = true
+Converted["_Button18"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Button18"].BackgroundColor3 = Color3.fromRGB(208.0000028014183, 126.00000008940697, 255)
+Converted["_Button18"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Button18"].BorderSizePixel = 0
+Converted["_Button18"].Size = UDim2.new(1, 0, -0.0294117648, 30)
+Converted["_Button18"].Visible = false
+Converted["_Button18"].Name = "Button"
+Converted["_Button18"].Parent = Converted["_Templates"]
 
 Converted["_TextBox9"].Font = Enum.Font.PermanentMarker
 Converted["_TextBox9"].Text = "TextBox"
@@ -1341,7 +1354,7 @@ local fake_module_scripts = {}
 
 -- Fake Local Scripts:
 
-local function FBSJT_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.LocalScript
+local function DMCRN_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.LocalScript
 	local script = Instance.new("LocalScript")
 	script.Name = "LocalScript"
 	script.Parent = Converted["_Tab"]
@@ -1378,7 +1391,7 @@ local function FBSJT_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.L
 
 
 end
-local function YJNMPR_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.player.ScrollingFrame.Toggler.TextButton.LocalScript
+local function PZOFKPW_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.player.ScrollingFrame.Toggler.TextButton.LocalScript
 	local script = Instance.new("LocalScript")
 	script.Name = "LocalScript"
 	script.Parent = Converted["_TextButton"]
@@ -1491,7 +1504,7 @@ local function YJNMPR_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.
 	button.Parent.MouseButton1Click:Connect(toggle)
 
 end
-local function DTKG_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.player.ScrollingFrame.Toggler.TextButton.LocalScript
+local function EDBCNZ_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.player.ScrollingFrame.Toggler.TextButton.LocalScript
 	local script = Instance.new("LocalScript")
 	script.Name = "LocalScript"
 	script.Parent = Converted["_TextButton1"]
@@ -1559,7 +1572,7 @@ local function DTKG_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.pl
 	button.Parent.MouseButton1Click:Connect(onPress)
 
 end
-local function RHPRQY_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.player.ScrollingFrame.Button.LocalScript
+local function BYPMSGX_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.player.ScrollingFrame.Button.LocalScript
 	local script = Instance.new("LocalScript")
 	script.Name = "LocalScript"
 	script.Parent = Converted["_Button"]
@@ -1602,7 +1615,7 @@ local function RHPRQY_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.
 		end
 	end)
 end
-local function RVKTFQS_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.player.ScrollingFrame.Button.LocalScript
+local function FMORIKH_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.player.ScrollingFrame.Button.LocalScript
 	local script = Instance.new("LocalScript")
 	script.Name = "LocalScript"
 	script.Parent = Converted["_Button1"]
@@ -1619,7 +1632,7 @@ local function RVKTFQS_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab
 		game.Players.LocalPlayer:Kick("You've been kicked by this script, Reason: uhm you pressed the kick button....")
 	end)
 end
-local function JOELV_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.player.ScrollingFrame.Button.LocalScript
+local function VQLHGH_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.player.ScrollingFrame.Button.LocalScript
 	local script = Instance.new("LocalScript")
 	script.Name = "LocalScript"
 	script.Parent = Converted["_Button2"]
@@ -1636,7 +1649,7 @@ local function JOELV_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.p
 		game.Players.LocalPlayer.Character.Head:Destroy()
 	end)
 end
-local function ZHDYNZ_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.player.ScrollingFrame.12.TextBox.LocalScript
+local function QQNK_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.player.ScrollingFrame.12.TextBox.LocalScript
 	local script = Instance.new("LocalScript")
 	script.Name = "LocalScript"
 	script.Parent = Converted["_TextBox2"]
@@ -1653,7 +1666,7 @@ local function ZHDYNZ_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.
 		game.Players.LocalPlayer.Character.Humanoid.JumpPower = script.Parent.Text
 	end)
 end
-local function BLZKBO_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.player.ScrollingFrame.122112.TextBox.LocalScript
+local function OQJB_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.player.ScrollingFrame.122112.TextBox.LocalScript
 	local script = Instance.new("LocalScript")
 	script.Name = "LocalScript"
 	script.Parent = Converted["_TextBox3"]
@@ -1670,7 +1683,7 @@ local function BLZKBO_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.
 		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = script.Parent.Text
 	end)
 end
-local function IBPYTLA_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.player.ScrollingFrame.122112.TextBox.LocalScript
+local function BXVPVWG_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.player.ScrollingFrame.122112.TextBox.LocalScript
 	local script = Instance.new("LocalScript")
 	script.Name = "LocalScript"
 	script.Parent = Converted["_TextBox4"]
@@ -1687,7 +1700,7 @@ local function IBPYTLA_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab
 		workspace.Gravity = script.Parent.Text
 	end)
 end
-local function AQJHJ_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.troll.ScrollingFrame.Toggler.TextButton.LocalScript
+local function GBVKXXN_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.troll.ScrollingFrame.Toggler.TextButton.LocalScript
 	local script = Instance.new("LocalScript")
 	script.Name = "LocalScript"
 	script.Parent = Converted["_TextButton2"]
@@ -1743,7 +1756,7 @@ local function AQJHJ_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.t
 	button.Parent.MouseButton1Click:Connect(toggle)
 
 end
-local function ZVQWO_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.troll.ScrollingFrame.Button.LocalScript
+local function YQONX_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.troll.ScrollingFrame.Button.LocalScript
 	local script = Instance.new("LocalScript")
 	script.Name = "LocalScript"
 	script.Parent = Converted["_Button3"]
@@ -1833,7 +1846,7 @@ local function ZVQWO_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.t
 	end)
 
 end
-local function OXTTRE_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.troll.ScrollingFrame.Button.LocalScript
+local function KALDTFI_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.troll.ScrollingFrame.Button.LocalScript
 	local script = Instance.new("LocalScript")
 	script.Name = "LocalScript"
 	script.Parent = Converted["_Button4"]
@@ -1911,7 +1924,7 @@ local function OXTTRE_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.
 	end)
 
 end
-local function BBTCQ_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.troll.ScrollingFrame.Button.LocalScript
+local function FNSCXVZ_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.troll.ScrollingFrame.Button.LocalScript
 	local script = Instance.new("LocalScript")
 	script.Name = "LocalScript"
 	script.Parent = Converted["_Button5"]
@@ -1992,7 +2005,7 @@ local function BBTCQ_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.t
 	end)
 
 end
-local function RUFFI_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.troll.ScrollingFrame.Button.LocalScript
+local function IQBWJH_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.troll.ScrollingFrame.Button.LocalScript
 	local script = Instance.new("LocalScript")
 	script.Name = "LocalScript"
 	script.Parent = Converted["_Button6"]
@@ -2013,7 +2026,7 @@ local function RUFFI_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.t
 		end
 	end)
 end
-local function TKKXBM_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.troll.ScrollingFrame.Button.LocalScript
+local function KSVPXFU_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.troll.ScrollingFrame.Button.LocalScript
 	local script = Instance.new("LocalScript")
 	script.Name = "LocalScript"
 	script.Parent = Converted["_Button7"]
@@ -2034,7 +2047,7 @@ local function TKKXBM_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.
 		end
 	end)
 end
-local function CSUWV_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.troll.ScrollingFrame.Button.LocalScript
+local function FVIV_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.troll.ScrollingFrame.Button.LocalScript
 	local script = Instance.new("LocalScript")
 	script.Name = "LocalScript"
 	script.Parent = Converted["_Button8"]
@@ -2055,8 +2068,8 @@ local function CSUWV_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.t
 
 	-- Function to find player by shortened name
 	local function findPlayerByShortName(partialName)
-		partialName = tostring(partialName)
 		partialName = partialName:lower()
+		partialName = tostring(partialName)
 		for _, player in ipairs(Players:GetPlayers()) do
 			if player.Name:lower():sub(1, #partialName) == partialName then
 				return player
@@ -2085,7 +2098,45 @@ local function CSUWV_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.t
 	-- Connect button click
 	button.MouseButton1Click:Connect(teleportToPlayer)
 end
-local function CAHQVUT_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.esp.ScrollingFrame.Toggler.TextButton.LocalScript
+local function PBUTFFV_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.troll.ScrollingFrame.Button.LocalScript
+	local script = Instance.new("LocalScript")
+	script.Name = "LocalScript"
+	script.Parent = Converted["_Button9"]
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	local function part()
+		local part = Instance.new("Part")
+		part.Parent = workspace
+		part.Name = "loskjdfoisdjfdoijfdsofdijsufhsd97fhsoufshdiufhdsuihfsdiuhfsiudf"
+		part.Anchored = true
+		part.CanCollide = false
+		part.Size = Vector3.new(1,1,1)
+		part.Position = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+	end
+	local gundrops=nil
+	script.Parent.MouseButton1Click:Connect(function()
+		local gundrop = "gundrop"
+		for i,v in workspace:GetDescendants() do
+			if v.Name:lower() == gundrop then
+				gundrops = v
+			end
+		end
+		if workspace:FindFirstChild("loskjdfoisdjfdoijfdsofdijsufhsd97fhsoufshdiufhdsuihfsdiuhfsiudf") then workspace.loskjdfoisdjfdoijfdsofdijsufhsd97fhsoufshdiufhdsuihfsdiuhfsiudf:Destroy() end
+		part()
+		game.Players.LocalPlayer.Character:PivotTo(gundrops:GetPivot())
+		wait(1/2)
+		game.Players.LocalPlayer.Character:PivotTo(workspace.loskjdfoisdjfdoijfdsofdijsufhsd97fhsoufshdiufhdsuihfsdiuhfsiudf:GetPivot())
+		if workspace:FindFirstChild("loskjdfoisdjfdoijfdsofdijsufhsd97fhsoufshdiufhdsuihfsdiuhfsiudf") then workspace.loskjdfoisdjfdoijfdsofdijsufhsd97fhsoufshdiufhdsuihfsdiuhfsiudf:Destroy() end
+	end)
+end
+local function EWTAOB_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.esp.ScrollingFrame.Toggler.TextButton.LocalScript
 	local script = Instance.new("LocalScript")
 	script.Name = "LocalScript"
 	script.Parent = Converted["_TextButton3"]
@@ -2103,13 +2154,11 @@ local function CAHQVUT_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab
 	local button = script.Parent
 	local onColor = button.on.Value
 	local offColor = button.off.Value
+	local updater = nil
 
-	local updater = nil -- thread reference
-
-	-- Function to update a highlight color for players
+	-- Update colors
 	local function hi(v, clone)
 		if not (v and v.Character and clone) then return end
-
 		if v.Backpack:FindFirstChild("Knife") or v.Character:FindFirstChild("Knife") then
 			clone.FillColor = Color3.new(1, 0, 0) -- red
 		elseif v.Backpack:FindFirstChild("Gun") or v.Character:FindFirstChild("Gun") then
@@ -2119,40 +2168,26 @@ local function CAHQVUT_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab
 		end
 	end
 
-	-- Function to highlight coins
-	local function highlightCoin(coin, clone)
-		if not (coin and clone) then return end
-		clone.FillColor = Color3.fromRGB(255, 215, 0) -- gold color for coins
-	end
-
-	-- Function to highlight guns
-	local function highlightGun(gun, clone)
-		if not (gun and clone) then return end
-		clone.FillColor = Color3.fromRGB(128, 0, 128) -- purple for guns
+	-- Respawn handler
+	local function applyESPToCharacter(v, char)
+		if not espEnabled then return end
+		if not char:FindFirstChild("ESPHighlight") then
+			local clone = highlightTemplate:Clone()
+			clone.Name = "ESPHighlight"
+			clone.Parent = char
+			clone.Enabled = true
+			hi(v, clone)
+		end
 	end
 
 	local function startUpdater()
 		updater = task.spawn(function()
 			while espEnabled do
-				-- Update players
 				for _, v in pairs(game.Players:GetPlayers()) do
 					if v.Character and v.Character:FindFirstChild("ESPHighlight") then
 						hi(v, v.Character.ESPHighlight)
 					end
 				end
-
-				-- Update coins and guns in workspace
-				for _, descendant in pairs(workspace:GetDescendants()) do
-					local nameLower = descendant.Name:lower()
-					if descendant:FindFirstChild("ESPHighlight") then
-						if nameLower == "coin_server" then
-							highlightCoin(descendant, descendant.ESPHighlight)
-						elseif nameLower == "gun" or nameLower == "gundrop" then
-							highlightGun(descendant, descendant.ESPHighlight)
-						end
-					end
-				end
-
 				task.wait(0.2)
 			end
 		end)
@@ -2167,63 +2202,28 @@ local function CAHQVUT_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab
 
 	local function toggle()
 		if not espEnabled then
-			-- TURN ON
 			espEnabled = true
 			button.BackgroundColor3 = onColor
 
-			-- Player highlights
 			for _, v in pairs(game.Players:GetPlayers()) do
-				if v.Character and not v.Character:FindFirstChild("ESPHighlight") then
-					local clone = highlightTemplate:Clone()
-					clone.Name = "ESPHighlight"
-					clone.Parent = v.Character
-					clone.Enabled = true
-					hi(v, clone)
+				if v.Character then
+					applyESPToCharacter(v, v.Character)
 				end
-			end
-
-			-- Coin and Gun highlights
-			for _, descendant in pairs(workspace:GetDescendants()) do
-				local nameLower = descendant.Name:lower()
-				if not descendant:FindFirstChild("ESPHighlight") then
-					if nameLower == "coin_server" then
-						local clone = highlightTemplate:Clone()
-						clone.Name = "ESPHighlight"
-						clone.Parent = descendant
-						clone.Enabled = true
-						highlightCoin(descendant, clone)
-					elseif nameLower == "gun" or nameLower == "gundrop" then
-						local clone = highlightTemplate:Clone()
-						clone.Name = "ESPHighlight"
-						clone.Parent = descendant
-						clone.Enabled = true
-						highlightGun(descendant, clone)
-					end
-				end
+				-- 🔥 ensure respawn gets ESP
+				v.CharacterAdded:Connect(function(char)
+					applyESPToCharacter(v, char)
+				end)
 			end
 
 			startUpdater()
 		else
-			-- TURN OFF
 			espEnabled = false
 			button.BackgroundColor3 = offColor
-
 			stopUpdater()
 
-			-- Remove player highlights
 			for _, v in pairs(game.Players:GetPlayers()) do
 				if v.Character and v.Character:FindFirstChild("ESPHighlight") then
 					v.Character.ESPHighlight:Destroy()
-				end
-			end
-
-			-- Remove coin and gun highlights
-			for _, descendant in pairs(workspace:GetDescendants()) do
-				local nameLower = descendant.Name:lower()
-				if descendant:FindFirstChild("ESPHighlight") then
-					if nameLower == "coin_server" or nameLower == "gun" or nameLower == "gundrop" then
-						descendant.ESPHighlight:Destroy()
-					end
 				end
 			end
 		end
@@ -2233,7 +2233,7 @@ local function CAHQVUT_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab
 
 
 end
-local function XWPLP_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.esp.ScrollingFrame.Toggler.TextButton.LocalScript
+local function HTIVK_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.esp.ScrollingFrame.Toggler.TextButton.LocalScript
 	local script = Instance.new("LocalScript")
 	script.Name = "LocalScript"
 	script.Parent = Converted["_TextButton4"]
@@ -2251,12 +2251,10 @@ local function XWPLP_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.e
 	local button = script.Parent
 	local onColor = button.on.Value
 	local offColor = button.off.Value
-
 	local updater = nil
 
 	local function hi(v, clone)
 		if not (v and v.Character and clone) then return end
-
 		if v.Backpack:FindFirstChild("Knife") or v.Character:FindFirstChild("Knife") then
 			clone.display.TextColor3 = Color3.new(1,0,0)
 			clone.user.TextColor3 = Color3.new(1,0,0)
@@ -2266,6 +2264,20 @@ local function XWPLP_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.e
 		else
 			clone.display.TextColor3 = Color3.new(0,1,0)
 			clone.user.TextColor3 = Color3.new(0,1,0)
+		end
+	end
+
+	-- Respawn handler
+	local function applyNameESP(v, char)
+		if not state then return end
+		if not char:FindFirstChild("NameESP") then
+			local clone = template:Clone()
+			clone.Name = "NameESP"
+			clone.Parent = char
+			clone.display.Text = v.DisplayName
+			clone.user.Text = "(@"..v.Name..")"
+			clone.Enabled = true
+			hi(v, clone)
 		end
 	end
 
@@ -2296,50 +2308,23 @@ local function XWPLP_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.e
 
 			for _, v in pairs(game.Players:GetPlayers()) do
 				if v.Character then
-					local clone = template:Clone()
-					clone.Name = "NameESP"
-					clone.Parent = v.Character
-					clone.display.Text = v.DisplayName
-					clone.user.Text = "(@"..v.Name..")"
-					clone.Enabled = true
-					hi(v, clone)
+					applyNameESP(v, v.Character)
 				end
+				-- 🔥 ensure respawn gets NameESP
+				v.CharacterAdded:Connect(function(char)
+					applyNameESP(v, char)
+				end)
 			end
-			for i,v in workspace:GetDescendants() do
-				if v.Name:lower() == "gun" or v.Name:lower() == "gundrop" then
-					local clone = template:Clone()
-					clone.Name = "NameESP"
-					clone.Parent = v
-					clone.display.Text = v.Name
-					clone.user.Text = ""
-					clone.display.TextColor3 = Color3.new(0.6,0,1)
-					clone.Enabled = true
 
-				elseif v.Name:lower() == "coin_server" then
-					local clone = template:Clone()
-					clone.Name = "NameESP"
-					clone.Parent = v
-					clone.display.Text = "Coin"
-					clone.user.Text = ""
-					clone.display.TextColor3 = Color3.new(1,1,0)
-					clone.Enabled = true
-				end
-			end
 			startUpdater()
 		else
 			state = false
 			button.BackgroundColor3 = offColor
-
 			stopUpdater()
 
 			for _, v in pairs(game.Players:GetPlayers()) do
 				if v.Character and v.Character:FindFirstChild("NameESP") then
 					v.Character.NameESP:Destroy()
-				end
-			end
-			for i,v in workspace:GetDescendants() do
-				if v:FindFirstChild("NameESP") then
-					v.NameESP:Destroy()
 				end
 			end
 		end
@@ -2349,7 +2334,7 @@ local function XWPLP_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.e
 
 
 end
-local function KOSQM_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.esp.ScrollingFrame.Toggler.TextButton.LocalScript
+local function LXMVACT_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.esp.ScrollingFrame.Toggler.TextButton.LocalScript
 	local script = Instance.new("LocalScript")
 	script.Name = "LocalScript"
 	script.Parent = Converted["_TextButton5"]
@@ -2367,18 +2352,28 @@ local function KOSQM_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.e
 	local button = script.Parent
 	local onColor = button.on.Value
 	local offColor = button.off.Value
-
 	local updater = nil
 
 	local function hi(v, clone)
 		if not (v and v.Character and clone) then return end
-
 		if v.Backpack:FindFirstChild("Knife") or v.Character:FindFirstChild("Knife") then
 			clone.Frame.UIStroke.Color = Color3.new(1,0,0)
 		elseif v.Backpack:FindFirstChild("Gun") or v.Character:FindFirstChild("Gun") then
 			clone.Frame.UIStroke.Color = Color3.new(0,0,1)
 		else
 			clone.Frame.UIStroke.Color = Color3.new(0,1,0)
+		end
+	end
+
+	-- Respawn handler
+	local function applyBoxESP(v, char)
+		if not state then return end
+		if not char:FindFirstChild("boxESP") then
+			local clone = template:Clone()
+			clone.Name = "boxESP"
+			clone.Parent = char
+			clone.Enabled = true
+			hi(v, clone)
 		end
 	end
 
@@ -2409,44 +2404,23 @@ local function KOSQM_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.e
 
 			for _, v in pairs(game.Players:GetPlayers()) do
 				if v.Character then
-					local clone = template:Clone()
-					clone.Name = "boxESP"
-					clone.Parent = v.Character
-					clone.Enabled = true
-					hi(v, clone)
+					applyBoxESP(v, v.Character)
 				end
+				-- 🔥 ensure respawn gets BoxESP
+				v.CharacterAdded:Connect(function(char)
+					applyBoxESP(v, char)
+				end)
 			end
-			for i,v in workspace:GetDescendants() do
-				if v.Name:lower() == "gun" or v.Name:lower() == "gundrop" then
-					local clone = template:Clone()
-					clone.Name = "boxESP"
-					clone.Parent = v
-					clone.Frame.UIStroke.Color = Color3.new(0.6,0,1)
-					clone.Enabled = true
 
-				elseif v.Name:lower() == "coin_server" then
-					local clone = template:Clone()
-					clone.Name = "boxESP"
-					clone.Parent = v
-					clone.Frame.UIStroke.Color = Color3.new(1,1,0)
-					clone.Enabled = true
-				end
-			end
 			startUpdater()
 		else
 			state = false
 			button.BackgroundColor3 = offColor
-
 			stopUpdater()
 
 			for _, v in pairs(game.Players:GetPlayers()) do
 				if v.Character and v.Character:FindFirstChild("boxESP") then
 					v.Character.boxESP:Destroy()
-				end
-			end
-			for i,v in workspace:GetDescendants() do
-				if v:FindFirstChild("boxESP") then
-					v.boxESP:Destroy()
 				end
 			end
 		end
@@ -2456,24 +2430,7 @@ local function KOSQM_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.e
 
 
 end
-local function WHMZXKK_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.myscripts.ScrollingFrame.Button.LocalScript
-	local script = Instance.new("LocalScript")
-	script.Name = "LocalScript"
-	script.Parent = Converted["_Button9"]
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
-
-	script.Parent.MouseButton1Click:Connect(function()
-		loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\34\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\89\101\108\108\101\114\110\101\116\47\82\101\116\114\111\105\102\121\47\114\101\102\115\47\104\101\97\100\115\47\109\97\105\110\47\112\108\97\121\101\114\108\105\115\116\46\108\117\97\34\41\41\40\41")()
-	end)
-end
-local function HTWLLIG_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.myscripts.ScrollingFrame.Button.LocalScript
+local function DDDYA_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.myscripts.ScrollingFrame.Button.LocalScript
 	local script = Instance.new("LocalScript")
 	script.Name = "LocalScript"
 	script.Parent = Converted["_Button10"]
@@ -2487,10 +2444,10 @@ local function HTWLLIG_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab
 	end
 
 	script.Parent.MouseButton1Click:Connect(function()
-
+		loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\34\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\89\101\108\108\101\114\110\101\116\47\82\101\116\114\111\105\102\121\47\114\101\102\115\47\104\101\97\100\115\47\109\97\105\110\47\112\108\97\121\101\114\108\105\115\116\46\108\117\97\34\41\41\40\41")()
 	end)
 end
-local function ESSUH_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.myscripts.ScrollingFrame.Button.LocalScript
+local function WLGQ_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.myscripts.ScrollingFrame.Button.LocalScript
 	local script = Instance.new("LocalScript")
 	script.Name = "LocalScript"
 	script.Parent = Converted["_Button11"]
@@ -2504,10 +2461,10 @@ local function ESSUH_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.m
 	end
 
 	script.Parent.MouseButton1Click:Connect(function()
-		loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\34\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\89\101\108\108\101\114\110\101\116\47\82\101\116\114\111\105\102\121\47\114\101\102\115\47\104\101\97\100\115\47\109\97\105\110\47\109\97\105\110\46\108\117\97\34\41\41\40\41")()
+
 	end)
 end
-local function GYRA_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.scripts.ScrollingFrame.Button.LocalScript
+local function YDVXDXM_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.myscripts.ScrollingFrame.Button.LocalScript
 	local script = Instance.new("LocalScript")
 	script.Name = "LocalScript"
 	script.Parent = Converted["_Button12"]
@@ -2519,15 +2476,12 @@ local function GYRA_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.sc
 		end
 		return req(obj)
 	end
-	script.Parent.MouseButton1Click:Connect(function()
-		--[[getgenv().mainKey = "nil"
 
-		
-		local a,b,c,d,e=loadstring,request or http_request or (http and http.request) or (syn and syn.request),assert,tostring,"https\58//api.eclipsehub.xyz/auth";c(a and b,"Executor not Supported")a(b({Url=e.."\?\107e\121\61"..d(mainKey),Headers={["User-Agent"]="Eclipse"}}).Body)()
-		]]	
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\34\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\89\101\108\108\101\114\110\101\116\47\82\101\116\114\111\105\102\121\47\114\101\102\115\47\104\101\97\100\115\47\109\97\105\110\47\109\97\105\110\46\108\117\97\34\41\41\40\41")()
 	end)
 end
-local function RMGGC_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.scripts.ScrollingFrame.Button.LocalScript
+local function VNNN_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.scripts.ScrollingFrame.Button.LocalScript
 	local script = Instance.new("LocalScript")
 	script.Name = "LocalScript"
 	script.Parent = Converted["_Button13"]
@@ -2541,10 +2495,14 @@ local function RMGGC_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.s
 	end
 
 	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/DarkNetworks/Infinite-Yield/refs/heads/main/latest.lua"))()
+				--[[
+		getgenv().mainKey = "nil"
+
+		local a,b,c,d,e=loadstring,request or http_request or (http and http.request) or (syn and syn.request),assert,tostring,"https\58//api.eclipsehub.xyz/auth";c(a and b,"Executor not Supported")a(b({Url=e.."\?\107e\121\61"..d(mainKey),Headers={["User-Agent"]="Eclipse"}}).Body)()
+		]]
 	end)
 end
-local function AAIQCI_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.scripts.ScrollingFrame.Button.LocalScript
+local function AHGYZQV_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.scripts.ScrollingFrame.Button.LocalScript
 	local script = Instance.new("LocalScript")
 	script.Name = "LocalScript"
 	script.Parent = Converted["_Button14"]
@@ -2558,10 +2516,10 @@ local function AAIQCI_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.
 	end
 
 	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/DarkNetworks/Infinite-Yield/main/dex.lua"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/DarkNetworks/Infinite-Yield/refs/heads/main/latest.lua"))()
 	end)
 end
-local function VHQXQL_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.scripts.ScrollingFrame.Button.LocalScript
+local function MIOAUG_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.scripts.ScrollingFrame.Button.LocalScript
 	local script = Instance.new("LocalScript")
 	script.Name = "LocalScript"
 	script.Parent = Converted["_Button15"]
@@ -2575,10 +2533,10 @@ local function VHQXQL_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.
 	end
 
 	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet("https://obj.wearedevs.net/2/scripts/Dex%20Explorer.lua"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/DarkNetworks/Infinite-Yield/main/dex.lua"))()
 	end)
 end
-local function GFCK_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.scripts.ScrollingFrame.Button.LocalScript
+local function KIFXG_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.scripts.ScrollingFrame.Button.LocalScript
 	local script = Instance.new("LocalScript")
 	script.Name = "LocalScript"
 	script.Parent = Converted["_Button16"]
@@ -2592,10 +2550,27 @@ local function GFCK_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.sc
 	end
 
 	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://obj.wearedevs.net/2/scripts/Dex%20Explorer.lua"))()
+	end)
+end
+local function KVIMMJI_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tab.scripts.ScrollingFrame.Button.LocalScript
+	local script = Instance.new("LocalScript")
+	script.Name = "LocalScript"
+	script.Parent = Converted["_Button17"]
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:GetObjects("rbxassetid://4001118261")[1].Source)()
 	end)
 end
-local function WXHZVYI_fake_script() -- Fake Script: StarterGui.GuiMain.main.Templates.Toggler.TextButton.LocalScript
+local function FZYA_fake_script() -- Fake Script: StarterGui.GuiMain.main.Templates.Toggler.TextButton.LocalScript
 	local script = Instance.new("LocalScript")
 	script.Name = "LocalScript"
 	script.Parent = Converted["_TextButton6"]
@@ -2628,31 +2603,32 @@ local function WXHZVYI_fake_script() -- Fake Script: StarterGui.GuiMain.main.Tem
 
 end
 
-coroutine.wrap(FBSJT_fake_script)()
-coroutine.wrap(YJNMPR_fake_script)()
-coroutine.wrap(DTKG_fake_script)()
-coroutine.wrap(RHPRQY_fake_script)()
-coroutine.wrap(RVKTFQS_fake_script)()
-coroutine.wrap(JOELV_fake_script)()
-coroutine.wrap(ZHDYNZ_fake_script)()
-coroutine.wrap(BLZKBO_fake_script)()
-coroutine.wrap(IBPYTLA_fake_script)()
-coroutine.wrap(AQJHJ_fake_script)()
-coroutine.wrap(ZVQWO_fake_script)()
-coroutine.wrap(OXTTRE_fake_script)()
-coroutine.wrap(BBTCQ_fake_script)()
-coroutine.wrap(RUFFI_fake_script)()
-coroutine.wrap(TKKXBM_fake_script)()
-coroutine.wrap(CSUWV_fake_script)()
-coroutine.wrap(CAHQVUT_fake_script)()
-coroutine.wrap(XWPLP_fake_script)()
-coroutine.wrap(KOSQM_fake_script)()
-coroutine.wrap(WHMZXKK_fake_script)()
-coroutine.wrap(HTWLLIG_fake_script)()
-coroutine.wrap(ESSUH_fake_script)()
-coroutine.wrap(GYRA_fake_script)()
-coroutine.wrap(RMGGC_fake_script)()
-coroutine.wrap(AAIQCI_fake_script)()
-coroutine.wrap(VHQXQL_fake_script)()
-coroutine.wrap(GFCK_fake_script)()
-coroutine.wrap(WXHZVYI_fake_script)()
+coroutine.wrap(DMCRN_fake_script)()
+coroutine.wrap(PZOFKPW_fake_script)()
+coroutine.wrap(EDBCNZ_fake_script)()
+coroutine.wrap(BYPMSGX_fake_script)()
+coroutine.wrap(FMORIKH_fake_script)()
+coroutine.wrap(VQLHGH_fake_script)()
+coroutine.wrap(QQNK_fake_script)()
+coroutine.wrap(OQJB_fake_script)()
+coroutine.wrap(BXVPVWG_fake_script)()
+coroutine.wrap(GBVKXXN_fake_script)()
+coroutine.wrap(YQONX_fake_script)()
+coroutine.wrap(KALDTFI_fake_script)()
+coroutine.wrap(FNSCXVZ_fake_script)()
+coroutine.wrap(IQBWJH_fake_script)()
+coroutine.wrap(KSVPXFU_fake_script)()
+coroutine.wrap(FVIV_fake_script)()
+coroutine.wrap(PBUTFFV_fake_script)()
+coroutine.wrap(EWTAOB_fake_script)()
+coroutine.wrap(HTIVK_fake_script)()
+coroutine.wrap(LXMVACT_fake_script)()
+coroutine.wrap(DDDYA_fake_script)()
+coroutine.wrap(WLGQ_fake_script)()
+coroutine.wrap(YDVXDXM_fake_script)()
+coroutine.wrap(VNNN_fake_script)()
+coroutine.wrap(AHGYZQV_fake_script)()
+coroutine.wrap(MIOAUG_fake_script)()
+coroutine.wrap(KIFXG_fake_script)()
+coroutine.wrap(KVIMMJI_fake_script)()
+coroutine.wrap(FZYA_fake_script)()
