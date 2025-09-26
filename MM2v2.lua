@@ -204,7 +204,7 @@ Converted["_player"].Size = UDim2.new(0, 100, 0, 20)
 Converted["_player"].Name = "player"
 Converted["_player"].Parent = Converted["_Tab"]
 
-Converted["_TabNameLabel"].Font = Enum.Font.Unknown
+Converted["_TabNameLabel"].Font = Enum.Font.PermanentMarker
 Converted["_TabNameLabel"].Text = "Player"
 Converted["_TabNameLabel"].TextColor3 = Color3.fromRGB(40.00000141561031, 22.000000588595867, 53.00000064074993)
 Converted["_TabNameLabel"].TextScaled = true
@@ -257,7 +257,7 @@ Converted["_UIStroke2"].Parent = Converted["_ScrollingFrame"]
 Converted["_UIListLayout"].SortOrder = Enum.SortOrder.LayoutOrder
 Converted["_UIListLayout"].Parent = Converted["_ScrollingFrame"]
 
-Converted["_Toggler"].Font = Enum.Font.Unknown
+Converted["_Toggler"].Font = Enum.Font.PermanentMarker
 Converted["_Toggler"].Text = "fly"
 Converted["_Toggler"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_Toggler"].TextScaled = true
@@ -271,7 +271,7 @@ Converted["_Toggler"].Size = UDim2.new(1, 0, -0.0294117648, 30)
 Converted["_Toggler"].Name = "Toggler"
 Converted["_Toggler"].Parent = Converted["_ScrollingFrame"]
 
-Converted["_TextButton"].Font = Enum.Font.SourceSans
+Converted["_TextButton"].Font = Enum.Font.PermanentMarker
 Converted["_TextButton"].RichText = true
 Converted["_TextButton"].Text = ""
 Converted["_TextButton"].TextColor3 = Color3.fromRGB(0, 0, 0)
@@ -296,7 +296,7 @@ Converted["_UIStroke3"].Color = Color3.fromRGB(255, 255, 255)
 Converted["_UIStroke3"].Thickness = 3
 Converted["_UIStroke3"].Parent = Converted["_Toggler"]
 
-Converted["_Toggler1"].Font = Enum.Font.Unknown
+Converted["_Toggler1"].Font = Enum.Font.PermanentMarker
 Converted["_Toggler1"].Text = "Noclip"
 Converted["_Toggler1"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_Toggler1"].TextScaled = true
@@ -311,7 +311,7 @@ Converted["_Toggler1"].Size = UDim2.new(1, 0, -0.0294117648, 30)
 Converted["_Toggler1"].Name = "Toggler"
 Converted["_Toggler1"].Parent = Converted["_ScrollingFrame"]
 
-Converted["_TextButton1"].Font = Enum.Font.SourceSans
+Converted["_TextButton1"].Font = Enum.Font.PermanentMarker
 Converted["_TextButton1"].RichText = true
 Converted["_TextButton1"].Text = ""
 Converted["_TextButton1"].TextColor3 = Color3.fromRGB(0, 0, 0)
@@ -336,7 +336,7 @@ Converted["_UIStroke4"].Color = Color3.fromRGB(255, 255, 255)
 Converted["_UIStroke4"].Thickness = 3
 Converted["_UIStroke4"].Parent = Converted["_Toggler1"]
 
-Converted["_TextBox"].Font = Enum.Font.Unknown
+Converted["_TextBox"].Font = Enum.Font.PermanentMarker
 Converted["_TextBox"].Text = "Fly Speed"
 Converted["_TextBox"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_TextBox"].TextSize = 14
@@ -349,7 +349,7 @@ Converted["_TextBox"].Size = UDim2.new(1, 0, -0.0294117648, 30)
 Converted["_TextBox"].Name = "TextBox"
 Converted["_TextBox"].Parent = Converted["_ScrollingFrame"]
 
-Converted["_TextBox1"].Font = Enum.Font.SourceSansBold
+Converted["_TextBox1"].Font = Enum.Font.PermanentMarker
 Converted["_TextBox1"].PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_TextBox1"].Text = ""
 Converted["_TextBox1"].TextColor3 = Color3.fromRGB(255, 255, 255)
@@ -368,7 +368,7 @@ Converted["_UIStroke5"].Color = Color3.fromRGB(255, 255, 255)
 Converted["_UIStroke5"].Thickness = 3
 Converted["_UIStroke5"].Parent = Converted["_TextBox"]
 
-Converted["_Button"].Font = Enum.Font.Unknown
+Converted["_Button"].Font = Enum.Font.PermanentMarker
 Converted["_Button"].Text = "Godmode (kills you)"
 Converted["_Button"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_Button"].TextScaled = true
@@ -388,7 +388,7 @@ Converted["_UIStroke6"].Color = Color3.fromRGB(255, 255, 255)
 Converted["_UIStroke6"].Thickness = 3
 Converted["_UIStroke6"].Parent = Converted["_Button"]
 
-Converted["_Button1"].Font = Enum.Font.Unknown
+Converted["_Button1"].Font = Enum.Font.PermanentMarker
 Converted["_Button1"].Text = "Kick"
 Converted["_Button1"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_Button1"].TextScaled = true
@@ -408,7 +408,7 @@ Converted["_UIStroke7"].Color = Color3.fromRGB(255, 255, 255)
 Converted["_UIStroke7"].Thickness = 3
 Converted["_UIStroke7"].Parent = Converted["_Button1"]
 
-Converted["_Button2"].Font = Enum.Font.Unknown
+Converted["_Button2"].Font = Enum.Font.PermanentMarker
 Converted["_Button2"].Text = "Die"
 Converted["_Button2"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_Button2"].TextScaled = true
@@ -428,7 +428,7 @@ Converted["_UIStroke8"].Color = Color3.fromRGB(255, 255, 255)
 Converted["_UIStroke8"].Thickness = 3
 Converted["_UIStroke8"].Parent = Converted["_Button2"]
 
-Converted["_12"].Font = Enum.Font.Unknown
+Converted["_12"].Font = Enum.Font.PermanentMarker
 Converted["_12"].Text = "Jump power"
 Converted["_12"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_12"].TextSize = 14
@@ -441,7 +441,7 @@ Converted["_12"].Size = UDim2.new(1, 0, -0.0294117648, 30)
 Converted["_12"].Name = "12"
 Converted["_12"].Parent = Converted["_ScrollingFrame"]
 
-Converted["_TextBox2"].Font = Enum.Font.SourceSansBold
+Converted["_TextBox2"].Font = Enum.Font.PermanentMarker
 Converted["_TextBox2"].PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_TextBox2"].Text = "50"
 Converted["_TextBox2"].TextColor3 = Color3.fromRGB(255, 255, 255)
@@ -460,7 +460,7 @@ Converted["_UIStroke9"].Color = Color3.fromRGB(255, 255, 255)
 Converted["_UIStroke9"].Thickness = 3
 Converted["_UIStroke9"].Parent = Converted["_12"]
 
-Converted["_122112"].Font = Enum.Font.Unknown
+Converted["_122112"].Font = Enum.Font.PermanentMarker
 Converted["_122112"].Text = "Speed"
 Converted["_122112"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_122112"].TextSize = 14
@@ -473,7 +473,7 @@ Converted["_122112"].Size = UDim2.new(1, 0, -0.0294117648, 30)
 Converted["_122112"].Name = "122112"
 Converted["_122112"].Parent = Converted["_ScrollingFrame"]
 
-Converted["_TextBox3"].Font = Enum.Font.SourceSansBold
+Converted["_TextBox3"].Font = Enum.Font.PermanentMarker
 Converted["_TextBox3"].PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_TextBox3"].Text = "16"
 Converted["_TextBox3"].TextColor3 = Color3.fromRGB(255, 255, 255)
@@ -492,7 +492,7 @@ Converted["_UIStroke10"].Color = Color3.fromRGB(255, 255, 255)
 Converted["_UIStroke10"].Thickness = 3
 Converted["_UIStroke10"].Parent = Converted["_122112"]
 
-Converted["_1221121"].Font = Enum.Font.Unknown
+Converted["_1221121"].Font = Enum.Font.PermanentMarker
 Converted["_1221121"].Text = "Gravity"
 Converted["_1221121"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_1221121"].TextSize = 14
@@ -506,7 +506,7 @@ Converted["_1221121"].Size = UDim2.new(1, 0, -0.0294117648, 30)
 Converted["_1221121"].Name = "122112"
 Converted["_1221121"].Parent = Converted["_ScrollingFrame"]
 
-Converted["_TextBox4"].Font = Enum.Font.SourceSansBold
+Converted["_TextBox4"].Font = Enum.Font.PermanentMarker
 Converted["_TextBox4"].PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_TextBox4"].Text = "196.2"
 Converted["_TextBox4"].TextColor3 = Color3.fromRGB(255, 255, 255)
@@ -525,7 +525,7 @@ Converted["_UIStroke11"].Color = Color3.fromRGB(255, 255, 255)
 Converted["_UIStroke11"].Thickness = 3
 Converted["_UIStroke11"].Parent = Converted["_1221121"]
 
-Converted["_ViewS"].Font = Enum.Font.Unknown
+Converted["_ViewS"].Font = Enum.Font.PermanentMarker
 Converted["_ViewS"].Text = "View Sheriff"
 Converted["_ViewS"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_ViewS"].TextScaled = true
@@ -540,7 +540,7 @@ Converted["_ViewS"].Size = UDim2.new(1, 0, -0.0294117648, 30)
 Converted["_ViewS"].Name = "ViewS"
 Converted["_ViewS"].Parent = Converted["_ScrollingFrame"]
 
-Converted["_TextButton2"].Font = Enum.Font.SourceSans
+Converted["_TextButton2"].Font = Enum.Font.PermanentMarker
 Converted["_TextButton2"].RichText = true
 Converted["_TextButton2"].Text = ""
 Converted["_TextButton2"].TextColor3 = Color3.fromRGB(0, 0, 0)
@@ -560,7 +560,7 @@ Converted["_on2"].Value = Color3.fromRGB(232.00000137090683, 149.00000631809235,
 Converted["_on2"].Name = "on"
 Converted["_on2"].Parent = Converted["_TextButton2"]
 
-Converted["_ViewM"].Font = Enum.Font.Unknown
+Converted["_ViewM"].Font = Enum.Font.PermanentMarker
 Converted["_ViewM"].Text = "View Murderer"
 Converted["_ViewM"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_ViewM"].TextScaled = true
@@ -575,7 +575,7 @@ Converted["_ViewM"].Size = UDim2.new(1, 0, -0.0294117648, 30)
 Converted["_ViewM"].Name = "ViewM"
 Converted["_ViewM"].Parent = Converted["_ScrollingFrame"]
 
-Converted["_TextButton3"].Font = Enum.Font.SourceSans
+Converted["_TextButton3"].Font = Enum.Font.PermanentMarker
 Converted["_TextButton3"].RichText = true
 Converted["_TextButton3"].Text = ""
 Converted["_TextButton3"].TextColor3 = Color3.fromRGB(0, 0, 0)
@@ -595,7 +595,7 @@ Converted["_on3"].Value = Color3.fromRGB(232.00000137090683, 149.00000631809235,
 Converted["_on3"].Name = "on"
 Converted["_on3"].Parent = Converted["_TextButton3"]
 
-Converted["_View"].Font = Enum.Font.Unknown
+Converted["_View"].Font = Enum.Font.PermanentMarker
 Converted["_View"].Text = "View"
 Converted["_View"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_View"].TextScaled = true
@@ -610,7 +610,7 @@ Converted["_View"].Size = UDim2.new(1, 0, -0.0294117648, 30)
 Converted["_View"].Name = "View"
 Converted["_View"].Parent = Converted["_ScrollingFrame"]
 
-Converted["_TextButton4"].Font = Enum.Font.SourceSans
+Converted["_TextButton4"].Font = Enum.Font.PermanentMarker
 Converted["_TextButton4"].RichText = true
 Converted["_TextButton4"].Text = ""
 Converted["_TextButton4"].TextColor3 = Color3.fromRGB(0, 0, 0)
@@ -630,7 +630,7 @@ Converted["_on4"].Value = Color3.fromRGB(232.00000137090683, 149.00000631809235,
 Converted["_on4"].Name = "on"
 Converted["_on4"].Parent = Converted["_TextButton4"]
 
-Converted["_ViewTB"].Font = Enum.Font.Unknown
+Converted["_ViewTB"].Font = Enum.Font.PermanentMarker
 Converted["_ViewTB"].Text = "Player"
 Converted["_ViewTB"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_ViewTB"].TextSize = 14
@@ -643,7 +643,7 @@ Converted["_ViewTB"].Size = UDim2.new(1, 0, -0.0294117648, 30)
 Converted["_ViewTB"].Name = "ViewTB"
 Converted["_ViewTB"].Parent = Converted["_ScrollingFrame"]
 
-Converted["_TextBox5"].Font = Enum.Font.SourceSansBold
+Converted["_TextBox5"].Font = Enum.Font.PermanentMarker
 Converted["_TextBox5"].PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_TextBox5"].Text = ""
 Converted["_TextBox5"].TextColor3 = Color3.fromRGB(255, 255, 255)
@@ -673,7 +673,7 @@ Converted["_troll"].Size = UDim2.new(0, 100, 0, 20)
 Converted["_troll"].Name = "troll"
 Converted["_troll"].Parent = Converted["_Tab"]
 
-Converted["_TabNameLabel1"].Font = Enum.Font.Unknown
+Converted["_TabNameLabel1"].Font = Enum.Font.PermanentMarker
 Converted["_TabNameLabel1"].Text = "Troll"
 Converted["_TabNameLabel1"].TextColor3 = Color3.fromRGB(40.00000141561031, 22.000000588595867, 53.00000064074993)
 Converted["_TabNameLabel1"].TextScaled = true
@@ -726,7 +726,7 @@ Converted["_UIStroke15"].Parent = Converted["_ScrollingFrame1"]
 Converted["_UIListLayout1"].SortOrder = Enum.SortOrder.LayoutOrder
 Converted["_UIListLayout1"].Parent = Converted["_ScrollingFrame1"]
 
-Converted["_Toggler2"].Font = Enum.Font.Unknown
+Converted["_Toggler2"].Font = Enum.Font.PermanentMarker
 Converted["_Toggler2"].Text = "X-RAY"
 Converted["_Toggler2"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_Toggler2"].TextScaled = true
@@ -740,7 +740,7 @@ Converted["_Toggler2"].Size = UDim2.new(1, 0, -0.0294117648, 30)
 Converted["_Toggler2"].Name = "Toggler"
 Converted["_Toggler2"].Parent = Converted["_ScrollingFrame1"]
 
-Converted["_TextButton5"].Font = Enum.Font.SourceSans
+Converted["_TextButton5"].Font = Enum.Font.PermanentMarker
 Converted["_TextButton5"].RichText = true
 Converted["_TextButton5"].Text = ""
 Converted["_TextButton5"].TextColor3 = Color3.fromRGB(0, 0, 0)
@@ -760,7 +760,7 @@ Converted["_on5"].Value = Color3.fromRGB(232.00000137090683, 149.00000631809235,
 Converted["_on5"].Name = "on"
 Converted["_on5"].Parent = Converted["_TextButton5"]
 
-Converted["_TextBox6"].Font = Enum.Font.Unknown
+Converted["_TextBox6"].Font = Enum.Font.PermanentMarker
 Converted["_TextBox6"].Text = "X-Ray Transparency"
 Converted["_TextBox6"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_TextBox6"].TextScaled = true
@@ -775,7 +775,7 @@ Converted["_TextBox6"].Size = UDim2.new(0.709999979, 0, -0.0294117648, 30)
 Converted["_TextBox6"].Name = "TextBox"
 Converted["_TextBox6"].Parent = Converted["_ScrollingFrame1"]
 
-Converted["_TextBox7"].Font = Enum.Font.SourceSansBold
+Converted["_TextBox7"].Font = Enum.Font.PermanentMarker
 Converted["_TextBox7"].PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_TextBox7"].Text = "0.5"
 Converted["_TextBox7"].TextColor3 = Color3.fromRGB(255, 255, 255)
@@ -789,7 +789,7 @@ Converted["_TextBox7"].Position = UDim2.new(0.988732576, 0, 0, 0)
 Converted["_TextBox7"].Size = UDim2.new(0.419717968, 0, 1, 0)
 Converted["_TextBox7"].Parent = Converted["_TextBox6"]
 
-Converted["_Button3"].Font = Enum.Font.Unknown
+Converted["_Button3"].Font = Enum.Font.PermanentMarker
 Converted["_Button3"].Text = "Fling"
 Converted["_Button3"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_Button3"].TextScaled = true
@@ -803,7 +803,7 @@ Converted["_Button3"].Size = UDim2.new(1, 0, -0.0294117648, 30)
 Converted["_Button3"].Name = "Button"
 Converted["_Button3"].Parent = Converted["_ScrollingFrame1"]
 
-Converted["_playe"].Font = Enum.Font.Unknown
+Converted["_playe"].Font = Enum.Font.PermanentMarker
 Converted["_playe"].Text = "Player"
 Converted["_playe"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_playe"].TextScaled = true
@@ -818,7 +818,7 @@ Converted["_playe"].Size = UDim2.new(0.709999979, 0, -0.0294117648, 30)
 Converted["_playe"].Name = "playe"
 Converted["_playe"].Parent = Converted["_ScrollingFrame1"]
 
-Converted["_TextBox8"].Font = Enum.Font.SourceSansBold
+Converted["_TextBox8"].Font = Enum.Font.PermanentMarker
 Converted["_TextBox8"].PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_TextBox8"].Text = "Player"
 Converted["_TextBox8"].TextColor3 = Color3.fromRGB(255, 255, 255)
@@ -832,7 +832,7 @@ Converted["_TextBox8"].Position = UDim2.new(0.988732576, 0, 0, 0)
 Converted["_TextBox8"].Size = UDim2.new(0.419717968, 0, 1, 0)
 Converted["_TextBox8"].Parent = Converted["_playe"]
 
-Converted["_Button4"].Font = Enum.Font.Unknown
+Converted["_Button4"].Font = Enum.Font.PermanentMarker
 Converted["_Button4"].Text = "Flingsheriff"
 Converted["_Button4"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_Button4"].TextScaled = true
@@ -846,7 +846,7 @@ Converted["_Button4"].Size = UDim2.new(1, 0, -0.0294117648, 30)
 Converted["_Button4"].Name = "Button"
 Converted["_Button4"].Parent = Converted["_ScrollingFrame1"]
 
-Converted["_Button5"].Font = Enum.Font.Unknown
+Converted["_Button5"].Font = Enum.Font.PermanentMarker
 Converted["_Button5"].Text = "Flingmurd"
 Converted["_Button5"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_Button5"].TextScaled = true
@@ -860,7 +860,7 @@ Converted["_Button5"].Size = UDim2.new(1, 0, -0.0294117648, 30)
 Converted["_Button5"].Name = "Button"
 Converted["_Button5"].Parent = Converted["_ScrollingFrame1"]
 
-Converted["_Button6"].Font = Enum.Font.Unknown
+Converted["_Button6"].Font = Enum.Font.PermanentMarker
 Converted["_Button6"].Text = "TP To murd"
 Converted["_Button6"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_Button6"].TextScaled = true
@@ -874,7 +874,7 @@ Converted["_Button6"].Size = UDim2.new(1, 0, -0.0294117648, 30)
 Converted["_Button6"].Name = "Button"
 Converted["_Button6"].Parent = Converted["_ScrollingFrame1"]
 
-Converted["_Button7"].Font = Enum.Font.Unknown
+Converted["_Button7"].Font = Enum.Font.PermanentMarker
 Converted["_Button7"].Text = "TP To Sheriff"
 Converted["_Button7"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_Button7"].TextScaled = true
@@ -888,7 +888,7 @@ Converted["_Button7"].Size = UDim2.new(1, 0, -0.0294117648, 30)
 Converted["_Button7"].Name = "Button"
 Converted["_Button7"].Parent = Converted["_ScrollingFrame1"]
 
-Converted["_Box"].Font = Enum.Font.Unknown
+Converted["_Box"].Font = Enum.Font.PermanentMarker
 Converted["_Box"].Text = "Player"
 Converted["_Box"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_Box"].TextScaled = true
@@ -903,7 +903,7 @@ Converted["_Box"].Size = UDim2.new(0.709999979, 0, -0.0294117648, 30)
 Converted["_Box"].Name = "Box"
 Converted["_Box"].Parent = Converted["_ScrollingFrame1"]
 
-Converted["_TextBox9"].Font = Enum.Font.SourceSansBold
+Converted["_TextBox9"].Font = Enum.Font.PermanentMarker
 Converted["_TextBox9"].PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_TextBox9"].Text = "Player"
 Converted["_TextBox9"].TextColor3 = Color3.fromRGB(255, 255, 255)
@@ -917,7 +917,7 @@ Converted["_TextBox9"].Position = UDim2.new(0.988732576, 0, 0, 0)
 Converted["_TextBox9"].Size = UDim2.new(0.419717968, 0, 1, 0)
 Converted["_TextBox9"].Parent = Converted["_Box"]
 
-Converted["_Button8"].Font = Enum.Font.Unknown
+Converted["_Button8"].Font = Enum.Font.PermanentMarker
 Converted["_Button8"].Text = "TP To Player"
 Converted["_Button8"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_Button8"].TextScaled = true
@@ -931,7 +931,7 @@ Converted["_Button8"].Size = UDim2.new(1, 0, -0.0294117648, 30)
 Converted["_Button8"].Name = "Button"
 Converted["_Button8"].Parent = Converted["_ScrollingFrame1"]
 
-Converted["_Button9"].Font = Enum.Font.Unknown
+Converted["_Button9"].Font = Enum.Font.PermanentMarker
 Converted["_Button9"].Text = "TP TO GUN"
 Converted["_Button9"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_Button9"].TextScaled = true
@@ -955,7 +955,7 @@ Converted["_esp"].Size = UDim2.new(0, 100, 0, 20)
 Converted["_esp"].Name = "esp"
 Converted["_esp"].Parent = Converted["_Tab"]
 
-Converted["_TabNameLabel2"].Font = Enum.Font.Unknown
+Converted["_TabNameLabel2"].Font = Enum.Font.PermanentMarker
 Converted["_TabNameLabel2"].Text = "ESP"
 Converted["_TabNameLabel2"].TextColor3 = Color3.fromRGB(40.00000141561031, 22.000000588595867, 53.00000064074993)
 Converted["_TabNameLabel2"].TextScaled = true
@@ -1008,7 +1008,7 @@ Converted["_UIStroke18"].Parent = Converted["_ScrollingFrame2"]
 Converted["_UIListLayout2"].SortOrder = Enum.SortOrder.LayoutOrder
 Converted["_UIListLayout2"].Parent = Converted["_ScrollingFrame2"]
 
-Converted["_Toggler3"].Font = Enum.Font.Unknown
+Converted["_Toggler3"].Font = Enum.Font.PermanentMarker
 Converted["_Toggler3"].Text = "highlights"
 Converted["_Toggler3"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_Toggler3"].TextScaled = true
@@ -1022,7 +1022,7 @@ Converted["_Toggler3"].Size = UDim2.new(1, 0, -0.0294117648, 30)
 Converted["_Toggler3"].Name = "Toggler"
 Converted["_Toggler3"].Parent = Converted["_ScrollingFrame2"]
 
-Converted["_TextButton6"].Font = Enum.Font.SourceSans
+Converted["_TextButton6"].Font = Enum.Font.PermanentMarker
 Converted["_TextButton6"].RichText = true
 Converted["_TextButton6"].Text = ""
 Converted["_TextButton6"].TextColor3 = Color3.fromRGB(0, 0, 0)
@@ -1042,7 +1042,7 @@ Converted["_on6"].Value = Color3.fromRGB(232.00000137090683, 149.00000631809235,
 Converted["_on6"].Name = "on"
 Converted["_on6"].Parent = Converted["_TextButton6"]
 
-Converted["_Toggler4"].Font = Enum.Font.Unknown
+Converted["_Toggler4"].Font = Enum.Font.PermanentMarker
 Converted["_Toggler4"].Text = "names"
 Converted["_Toggler4"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_Toggler4"].TextScaled = true
@@ -1056,7 +1056,7 @@ Converted["_Toggler4"].Size = UDim2.new(1, 0, -0.0294117648, 30)
 Converted["_Toggler4"].Name = "Toggler"
 Converted["_Toggler4"].Parent = Converted["_ScrollingFrame2"]
 
-Converted["_TextButton7"].Font = Enum.Font.SourceSans
+Converted["_TextButton7"].Font = Enum.Font.PermanentMarker
 Converted["_TextButton7"].RichText = true
 Converted["_TextButton7"].Text = ""
 Converted["_TextButton7"].TextColor3 = Color3.fromRGB(0, 0, 0)
@@ -1076,7 +1076,7 @@ Converted["_on7"].Value = Color3.fromRGB(232.00000137090683, 149.00000631809235,
 Converted["_on7"].Name = "on"
 Converted["_on7"].Parent = Converted["_TextButton7"]
 
-Converted["_Toggler5"].Font = Enum.Font.Unknown
+Converted["_Toggler5"].Font = Enum.Font.PermanentMarker
 Converted["_Toggler5"].Text = "boxes"
 Converted["_Toggler5"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_Toggler5"].TextScaled = true
@@ -1090,7 +1090,7 @@ Converted["_Toggler5"].Size = UDim2.new(1, 0, -0.0294117648, 30)
 Converted["_Toggler5"].Name = "Toggler"
 Converted["_Toggler5"].Parent = Converted["_ScrollingFrame2"]
 
-Converted["_TextButton8"].Font = Enum.Font.SourceSans
+Converted["_TextButton8"].Font = Enum.Font.PermanentMarker
 Converted["_TextButton8"].RichText = true
 Converted["_TextButton8"].Text = ""
 Converted["_TextButton8"].TextColor3 = Color3.fromRGB(0, 0, 0)
@@ -1120,7 +1120,7 @@ Converted["_myscripts"].Size = UDim2.new(0, 100, 0, 20)
 Converted["_myscripts"].Name = "myscripts"
 Converted["_myscripts"].Parent = Converted["_Tab"]
 
-Converted["_TabNameLabel3"].Font = Enum.Font.Unknown
+Converted["_TabNameLabel3"].Font = Enum.Font.PermanentMarker
 Converted["_TabNameLabel3"].Text = "my scripts"
 Converted["_TabNameLabel3"].TextColor3 = Color3.fromRGB(40.00000141561031, 22.000000588595867, 53.00000064074993)
 Converted["_TabNameLabel3"].TextScaled = true
@@ -1173,7 +1173,7 @@ Converted["_UIStroke21"].Parent = Converted["_ScrollingFrame3"]
 Converted["_UIListLayout3"].SortOrder = Enum.SortOrder.LayoutOrder
 Converted["_UIListLayout3"].Parent = Converted["_ScrollingFrame3"]
 
-Converted["_Button10"].Font = Enum.Font.Unknown
+Converted["_Button10"].Font = Enum.Font.PermanentMarker
 Converted["_Button10"].Text = "2020 plist"
 Converted["_Button10"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_Button10"].TextScaled = true
@@ -1187,7 +1187,7 @@ Converted["_Button10"].Size = UDim2.new(1, 0, -0.0294117648, 30)
 Converted["_Button10"].Name = "Button"
 Converted["_Button10"].Parent = Converted["_ScrollingFrame3"]
 
-Converted["_Button11"].Font = Enum.Font.Unknown
+Converted["_Button11"].Font = Enum.Font.PermanentMarker
 Converted["_Button11"].Text = "2019"
 Converted["_Button11"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_Button11"].TextScaled = true
@@ -1201,7 +1201,7 @@ Converted["_Button11"].Size = UDim2.new(1, 0, -0.0294117648, 30)
 Converted["_Button11"].Name = "Button"
 Converted["_Button11"].Parent = Converted["_ScrollingFrame3"]
 
-Converted["_Button12"].Font = Enum.Font.Unknown
+Converted["_Button12"].Font = Enum.Font.PermanentMarker
 Converted["_Button12"].Text = "2020"
 Converted["_Button12"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_Button12"].TextScaled = true
@@ -1225,7 +1225,7 @@ Converted["_scripts"].Size = UDim2.new(0, 100, 0, 20)
 Converted["_scripts"].Name = "scripts"
 Converted["_scripts"].Parent = Converted["_Tab"]
 
-Converted["_TabNameLabel4"].Font = Enum.Font.Unknown
+Converted["_TabNameLabel4"].Font = Enum.Font.PermanentMarker
 Converted["_TabNameLabel4"].Text = "scripts"
 Converted["_TabNameLabel4"].TextColor3 = Color3.fromRGB(40.00000141561031, 22.000000588595867, 53.00000064074993)
 Converted["_TabNameLabel4"].TextScaled = true
@@ -1278,7 +1278,7 @@ Converted["_UIStroke24"].Parent = Converted["_ScrollingFrame4"]
 Converted["_UIListLayout4"].SortOrder = Enum.SortOrder.LayoutOrder
 Converted["_UIListLayout4"].Parent = Converted["_ScrollingFrame4"]
 
-Converted["_Button13"].Font = Enum.Font.Unknown
+Converted["_Button13"].Font = Enum.Font.PermanentMarker
 Converted["_Button13"].Text = "Eclipse"
 Converted["_Button13"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_Button13"].TextScaled = true
@@ -1292,7 +1292,7 @@ Converted["_Button13"].Size = UDim2.new(1, 0, -0.0294117648, 30)
 Converted["_Button13"].Name = "Button"
 Converted["_Button13"].Parent = Converted["_ScrollingFrame4"]
 
-Converted["_Button14"].Font = Enum.Font.Unknown
+Converted["_Button14"].Font = Enum.Font.PermanentMarker
 Converted["_Button14"].Text = "infinite yield"
 Converted["_Button14"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_Button14"].TextScaled = true
@@ -1306,7 +1306,7 @@ Converted["_Button14"].Size = UDim2.new(1, 0, -0.0294117648, 30)
 Converted["_Button14"].Name = "Button"
 Converted["_Button14"].Parent = Converted["_ScrollingFrame4"]
 
-Converted["_Button15"].Font = Enum.Font.Unknown
+Converted["_Button15"].Font = Enum.Font.PermanentMarker
 Converted["_Button15"].Text = "dex"
 Converted["_Button15"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_Button15"].TextScaled = true
@@ -1320,7 +1320,7 @@ Converted["_Button15"].Size = UDim2.new(1, 0, -0.0294117648, 30)
 Converted["_Button15"].Name = "Button"
 Converted["_Button15"].Parent = Converted["_ScrollingFrame4"]
 
-Converted["_Button16"].Font = Enum.Font.Unknown
+Converted["_Button16"].Font = Enum.Font.PermanentMarker
 Converted["_Button16"].Text = "old dex"
 Converted["_Button16"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_Button16"].TextScaled = true
@@ -1334,7 +1334,7 @@ Converted["_Button16"].Size = UDim2.new(1, 0, -0.0294117648, 30)
 Converted["_Button16"].Name = "Button"
 Converted["_Button16"].Parent = Converted["_ScrollingFrame4"]
 
-Converted["_Button17"].Font = Enum.Font.Unknown
+Converted["_Button17"].Font = Enum.Font.PermanentMarker
 Converted["_Button17"].Text = "Vynixu's"
 Converted["_Button17"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_Button17"].TextScaled = true
@@ -1354,7 +1354,7 @@ Converted["_UIDragDetector4"].Parent = Converted["_scripts"]
 Converted["_Templates"].Name = "Templates"
 Converted["_Templates"].Parent = Converted["_main"]
 
-Converted["_Toggler6"].Font = Enum.Font.Unknown
+Converted["_Toggler6"].Font = Enum.Font.PermanentMarker
 Converted["_Toggler6"].Text = "Toggler"
 Converted["_Toggler6"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_Toggler6"].TextScaled = true
@@ -1369,7 +1369,7 @@ Converted["_Toggler6"].Visible = false
 Converted["_Toggler6"].Name = "Toggler"
 Converted["_Toggler6"].Parent = Converted["_Templates"]
 
-Converted["_TextButton9"].Font = Enum.Font.SourceSans
+Converted["_TextButton9"].Font = Enum.Font.PermanentMarker
 Converted["_TextButton9"].RichText = true
 Converted["_TextButton9"].Text = ""
 Converted["_TextButton9"].TextColor3 = Color3.fromRGB(0, 0, 0)
@@ -1389,7 +1389,7 @@ Converted["_on9"].Value = Color3.fromRGB(232.00000137090683, 149.00000631809235,
 Converted["_on9"].Name = "on"
 Converted["_on9"].Parent = Converted["_TextButton9"]
 
-Converted["_Button18"].Font = Enum.Font.Unknown
+Converted["_Button18"].Font = Enum.Font.PermanentMarker
 Converted["_Button18"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_Button18"].TextScaled = true
 Converted["_Button18"].TextSize = 14
@@ -1403,7 +1403,7 @@ Converted["_Button18"].Visible = false
 Converted["_Button18"].Name = "Button"
 Converted["_Button18"].Parent = Converted["_Templates"]
 
-Converted["_TextBox10"].Font = Enum.Font.Unknown
+Converted["_TextBox10"].Font = Enum.Font.PermanentMarker
 Converted["_TextBox10"].Text = "TextBox"
 Converted["_TextBox10"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_TextBox10"].TextScaled = true
@@ -1418,7 +1418,7 @@ Converted["_TextBox10"].Visible = false
 Converted["_TextBox10"].Name = "TextBox"
 Converted["_TextBox10"].Parent = Converted["_Templates"]
 
-Converted["_TextBox11"].Font = Enum.Font.SourceSansBold
+Converted["_TextBox11"].Font = Enum.Font.PermanentMarker
 Converted["_TextBox11"].PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_TextBox11"].Text = ""
 Converted["_TextBox11"].TextColor3 = Color3.fromRGB(255, 255, 255)
